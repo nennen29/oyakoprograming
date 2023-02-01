@@ -273,11 +273,54 @@ body {
   font-size: 1.5em;
 }
 
-#parent-footer {
+#ability-top {
+  width: 100vw;
+  height: 50vh;
+  background-color: #DDDBF1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ability-top .ability-top-heading {
+  width: 50%;
+  height: 40%;
+  background-color: #fdfdfd;
+  opacity: 70%;
+  border-radius: 10px;
+  text-align: center;
+}
+#ability-top .ability-top-heading h1 {
+  font-family: "fot-tsukuardgothic-std", sans-serif;
+  font-size: 3em;
+}
+#ability-top .ability-top-heading h2 {
+  font-family: "fot-tsukuardgothic-std", sans-serif;
+}
+
+#ability-contents {
+  width: 100vw;
+  height: 110vh;
+  background-color: #FFF7E8;
+  position: relative;
+}
+
+#ability-contents::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 100vw 0 0;
+  border-color: transparent #fdfdfd transparent transparent;
+}
+
+.parent-footer {
   width: 100vw;
   height: 107vh;
 }
-#parent-footer .parent-footer-1 {
+.parent-footer .parent-footer-1 {
   width: 100%;
   height: 90%;
   padding: 5% 0;
@@ -286,18 +329,18 @@ body {
   align-items: center;
   justify-content: center;
 }
-#parent-footer .parent-footer-1 img {
+.parent-footer .parent-footer-1 img {
   width: 30%;
   height: 15%;
 }
-#parent-footer .parent-footer-1 .footer-btn-1 {
+.parent-footer .parent-footer-1 .footer-btn-1 {
   width: 70%;
   height: 60%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-#parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability {
+.parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability {
   width: 30%;
   height: 60%;
   background-color: #C4E6FD;
@@ -306,14 +349,14 @@ body {
   align-items: center;
   justify-content: center;
 }
-#parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability a {
+.parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
   font-size: 2em;
   text-decoration: none;
   color: #4B4237;
 }
-#parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods {
+.parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods {
   width: 30%;
   height: 60%;
   background-color: #D2F8D1;
@@ -322,18 +365,18 @@ body {
   align-items: center;
   justify-content: center;
 }
-#parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods a {
+.parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
   font-size: 2em;
   text-decoration: none;
   color: #4B4237;
 }
-#parent-footer .parent-footer-1 .footer-btn-2 {
+.parent-footer .parent-footer-1 .footer-btn-2 {
   width: 60%;
   height: 20%;
 }
-#parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child {
+.parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child {
   width: 100%;
   height: 100%;
   background-color: #F6F1C2;
@@ -342,14 +385,14 @@ body {
   align-items: center;
   justify-content: center;
 }
-#parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child a {
+.parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
   font-size: 2em;
   text-decoration: none;
   color: #4B4237;
 }
-#parent-footer .parent-footer-2 {
+.parent-footer .parent-footer-2 {
   width: 100vw;
   height: 10%;
   background-color: #1EAAAA;
