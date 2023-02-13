@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script>
-        (function(d) {
-          var config = {
-            kitId: 'yuw0zzc',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-        })(document);
-      </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    (function (d) {
+      var config = {
+          kitId: 'yuw0zzc',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || a && a != "complete" && a != "loaded") return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config)
+        } catch (e) {}
+      };
+      s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js"></script>
 </head>
+
 <body>
   <section id="goods-top">
     <div class="goods-top-heading">
@@ -25,30 +52,416 @@
     </div>
   </section>
   <section id="goods-main">
-    <div class="goods-main-game"></div>
-    <div class="goods-main-robot"></div>
-    <div class="goods-main-analog"></div>
-    <div class="goods-main-thinking"></div>
-    <div class="goods-main-tv"></div>
+    <div class="goods-main-game">
+      <h1 class="item-title">ゲームで学ぶ</h1>
+      <div class="item-flex">
+        <div class="item item-scratch">
+          <img src="/img/scratch.png" alt="">
+          <h2>SCRATCH</h2>
+        </div>
+        <div class="item item-navi">
+          <img src="/img/maxresdefault.png" alt="">
+          <h2>ゲームプログラミング</h2>
+        </div>
+        <div class="item">
+          <img src="/img/springin.png" alt="">
+          <h2>Springin</h2>
+        </div>
+      </div>
+    </div>
+    <div class="goods-main-robot">
+      <h1 class="item-title">ロボットで学ぶ</h1>
+      <div class="item-flex">
+        <div class="item">
+          <img src="/img/toio.png" alt="">
+          <h2>toio</h2>
+        </div>
+        <div class="item">
+          <img src="/img/alilo.png" alt="">
+          <h2>alilo</h2>
+        </div>
+        <div class="item">
+          <img src="/img/romi.jpeg" alt="">
+          <h2>Romi</h2>
+        </div>
+      </div>
+    </div>
+    <div class="goods-main-analog">
+      <h1 class="item-title">アナログで学ぶ</h1>
+      <div class="item-flex">
+        <div class="item">
+          <img src="/img/swich.webp" alt="">
+          <h2>ころがスイッチ</h2>
+        </div>
+        <div class="item">
+          <img src="/img/car.jpg" alt="">
+          <h2>プログラミングカー</h2>
+        </div>
+        <div class="item">
+          <img src="/img/rogical.jpeg" alt="">
+          <h2>ロジカルルートパズル</h2>
+        </div>
+      </div>
+    </div>
+    <div class="goods-main-thinking">
+      <h1 class="item-title">思考力を学ぶ</h1>
+      <div class="item-flex">
+        <div class="item">
+          <img src="/img/thinkthink.webp" alt="">
+          <h2>Think!Think!</h2>
+        </div>
+        <div class="item">
+          <img src="/img/Q.jpeg" alt="">
+          <h2>Q</h2>
+        </div>
+      </div>
+    </div>
+    <div class="goods-main-tv">
+      <h1 class="item-title">番組で学ぶ</h1>
+      <div class="item-flex">
+        <div class="item">
+          <img src="/img/Why.jpeg" alt="">
+          <h2>Why!?プログラミング</h2>
+        </div>
+        <div class="item">
+          <img src="/img/tekisiko.png" alt="">
+          <h2>テキシコー</h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="goods-info info-scratch">
+      <h3>SCRATCH</h3>
+      <div class="goods-info-main">
+        <img src="/img/scratch.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4>SCRATCH</h4>
+            <p>販売元:SCRATCH財団<br>価格:無料</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/scratch.png" alt="">
+            <div class="product-right-btn">
+              <a href="https://scratch.mit.edu/">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info info-navi">
+      <h3><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h3>
+      <div class="goods-info-main">
+        <img src="/img/maxresdefault.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h4>
+            <p>発売日:2021年6月11日<br>販売元:任天堂<br>価格:パッケージ版3480円</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/image 25.png" alt="">
+            <div class="product-right-btn">
+              <a href="https://www.nintendo.co.jp/switch/awuxa/">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3>Springin</h3>
+      <div class="goods-info-main">
+        <img src="/img/springin.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4>Springin</h4>
+            <p>販売元:しくみデザイン<br>価格:基本無料（アプリ内課金有り）</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/springin.png" alt="">
+            <div class="product-right-btn">
+              <a href="https://www.springin.org/">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3>toio</h3>
+      <div class="goods-info-main">
+        <img src="/img/toio.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4>toio（バリューパック）</h4>
+            <p>発売日:2019年3月19日<br>販売元:SONY<br>価格:2197円</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/toio.png" alt="">
+            <div class="product-right-btn">
+              <a href="https://toio.io/">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3>alilo</h3>
+      <div class="goods-info-main">
+        <img src="/img/alilo.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4>alilo</h4>
+            <p>販売元:アーテック<br>価格:20350円（Amazon参考価格）</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/alilo.png" alt="">
+            <div class="product-right-btn">
+              <a href="https://www.artec-kk.co.jp/alilo/">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3>Romi</h3>
+      <div class="goods-info-main">
+        <img src="/img/romi.jpeg" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4>Romi</h4>
+            <p>販売元:MIXI<br>価格:49280円</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/romi.jpeg" alt="">
+            <div class="product-right-btn">
+              <a href="https://romi.ai/lp-202212/?gclid=CjwKCAiA0JKfBhBIEiwAPhZXD_H7Y6Ipdf5k7BENN3cuLGF1RFTj0j8OwADB_F58ETHgYJTYi3EWtBoCNeQQAvD_BwE">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3>ころがスイッチ</h3>
+      <div class="goods-info-main">
+        <img src="/img/swich.webp" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4>ころがスイッチドラえもん</h4>
+            <p>販売元:BANDAI<br>価格:4378円（ファーストキット）</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/swich.webp" alt="">
+            <div class="product-right-btn">
+              <a href="https://toy.bandai.co.jp/series/corogaswitch/">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h3>
+      <div class="goods-info-main">
+        <img src="/img/maxresdefault.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h4>
+            <p>発売日:2021年6月11日<br>販売元:会社名<br>価格:5000円(税込)</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/image 25.png" alt="">
+            <div class="product-right-btn">
+              <a href="#">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h3>
+      <div class="goods-info-main">
+        <img src="/img/maxresdefault.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h4>
+            <p>発売日:2021年6月11日<br>販売元:会社名<br>価格:5000円(税込)</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/image 25.png" alt="">
+            <div class="product-right-btn">
+              <a href="#">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h3>
+      <div class="goods-info-main">
+        <img src="/img/maxresdefault.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h4>
+            <p>発売日:2021年6月11日<br>販売元:会社名<br>価格:5000円(税込)</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/image 25.png" alt="">
+            <div class="product-right-btn">
+              <a href="#">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h3>
+      <div class="goods-info-main">
+        <img src="/img/maxresdefault.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h4>
+            <p>発売日:2021年6月11日<br>販売元:会社名<br>価格:5000円(税込)</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/image 25.png" alt="">
+            <div class="product-right-btn">
+              <a href="#">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h3>
+      <div class="goods-info-main">
+        <img src="/img/maxresdefault.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h4>
+            <p>発売日:2021年6月11日<br>販売元:会社名<br>価格:5000円(税込)</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/image 25.png" alt="">
+            <div class="product-right-btn">
+              <a href="#">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+    <div class="goods-info">
+      <h3><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h3>
+      <div class="goods-info-main">
+        <img src="/img/maxresdefault.png" alt="">
+        <p>ここに商品のおすすめしたいポイント<br>
+          とかを三行くらいで書いていく。<br>
+          だいたいこれくらいの分量で。</p>
+        <div class="product">
+          <div class="product-left">
+            <h4><span>ナビ付き！つくってわかる</span><br>はじめてゲームプログラミング</h4>
+            <p>発売日:2021年6月11日<br>販売元:会社名<br>価格:5000円(税込)</p>
+          </div>
+          <div class="product-right">
+            <img src="/img/image 25.png" alt="">
+            <div class="product-right-btn">
+              <a href="#">商品はこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="goods-info-close" href="#"></a>
+    </div>
+
+
   </section>
   <section class="parent-footer">
     <div class="parent-footer-1">
-        <img src="/img/遊んで学んで プログラミング.png" alt="">
-        <div class="footer-btn-1">
-            <div class="footer-btn-ability">
-                <a href="/ability.html">身に付く能力</a>
-            </div>
-            <div class="footer-btn-goods">
-                <a href="/goods.html">商品紹介</a>
-            </div>
+      <img src="/img/遊んで学んで プログラミング.png" alt="">
+      <div class="footer-btn-1">
+        <div class="footer-btn-ability">
+          <div class="footer-ability-img">
+            <img class="footer-ability-img-1" src="/img/chara-c.png" alt="">
+            <img class="footer-ability-img-2" src="/img/chara-p.png" alt="">
+          </div>
+          <a href="/ability.html">身に付く能力</a>
         </div>
-        <div class="footer-btn-2">
-            <div class="footer-btn-child">
-                <a href="/index.html">子供用ページへ</a>
-            </div>
+        <div class="footer-btn-goods">
+          <div class="footer-goods-img">
+            <img class="footer-goods-img-2" src="/img/thinkthink.webp" alt="">
+            <img class="footer-goods-img-3" src="/img/toio.png" alt="">
+            <img class="footer-goods-img-1" src="/img/scratch.png" alt="">
+          </div>
+          <a href="/goods.html">商品紹介</a>
         </div>
+      </div>
+      <div class="footer-btn-2">
+        <div class="footer-btn-child">
+          <a href="/index.html">子供用ページへ</a>
+        </div>
+      </div>
     </div>
     <div class="parent-footer-2"></div>
-</section>
+  </section>
+  <script src="/js/goods.js"></script>
+  <script src="js/gsap.js"></script>
 </body>
+
 </html>

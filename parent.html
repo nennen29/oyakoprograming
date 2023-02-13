@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,70 +8,186 @@
     <title>parents</title>
     <link rel="stylesheet" href="/css/style.css">
     <script>
-        (function(d) {
-          var config = {
-            kitId: 'yuw0zzc',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        (function (d) {
+            var config = {
+                    kitId: 'yuw0zzc',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
         })(document);
-      </script>
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js"></script>
 </head>
+
 <body>
-    <section id="parent-top">
-        <img class="rogo" src="/img/Mask group.png" alt="">
-        <img class="chara" src="/img/chara.png" alt="">
-    </section>
-    <section id="parent-main">
-        <div class="parent-main-1">
-            <div class="parent-concept">
-                <img class="parent-title" src="/img/title.png" alt="">
-                <p>プログラミング教育。<br>知って欲しい。親子で楽しむ。<br>あそぶように楽しむ。</p>
-            </div>
-            <div class="parent-what">
-                <img class="parent-title" src="/img/dekirukoto.png" alt="">
-                <div class="parent-what-text">
-                    <p>プログラミング教育。<br>知って欲しい。親子で楽しむ。<br>あそぶように楽しむ。</p>
-                <p>ロボットが作れる。<br>ゲームが作れる。<br>できることをかいていく。</p>
+    <div id="fixed">
+        <section id="parent-top">
+            <div class="top-main">
+                <div class="top-text">
+                    <p id="top-text-first" class="top-text-first">遊んで</p>
+                    <p id="top-text-second" class="top-text-second">学べる</p>
+                    <img src="/img/e0100_0.png" alt="">
+                    <p id="top-text-third" class="top-text-third">プログラミング教育</p>
+                </div>
+                <div id="top-character" class="top-character">
+                    <img id="top-character-c" class="top-character-c" src="/img/chara-c.png" alt="">
+                    <img id="top-character-p" class="top-character-p" src="/img/chara-p.png" alt="">
                 </div>
             </div>
-            <div class="parent-ability">
-                <img class="parent-title" src="/img/ability.png" alt="">
-                <p>ロボットが作れる。<br>ゲームが作れる。<br>できることを書いていく。</p>
-                <div class="parent-btn">
-                    <a href="/ability.html">さらに詳しく</a>
+            <div class="top-background">
+                <img class="top-background-1" src="/img/1.png" alt="">
+                <img class="top-background-4" src="/img/4.png" alt="">
+                <img class="top-background-6" src="/img/6.png" alt="">
+                <img class="top-background-2" src="/img/2.png" alt="">
+                <img class="top-background-0" src="/img/0.png" alt="">
+                <img class="top-background-8" src="/img/8.png" alt="">
+                <img class="top-background-3" src="/img/3.png" alt="">
+                <img class="top-background-9" src="/img/9.png" alt="">
+                <img class="top-background-5" src="/img/5.png" alt="">
+                <img class="top-background-7" src="/img/7.png" alt="">
+            </div>
+        </section>
+        <section id="parent-main">
+            <div class="parent-main-1">
+                <div class="parent-concept">
+                    <div class="parent-title">
+                        <img src="/img/Rectangle 158.png" alt="">
+                        <h1>タイトル</h1>
+                        <img src="/img/Rectangle 158.png" alt="">
+                    </div>
+                    <p>最近重要視されているプログラミング教育。<br>
+                        「プログラミング」と聞くと専門的で難しく聞こえますが<br>
+                        実はとっても手軽に始めることができます。<br>
+                        このサイトを入口にして<br>
+                        プログラミングに触れてみてください。</p>
+                </div>
+                <div class="parent-what">
+                    <div class="parent-title">
+                        <img src="/img/Rectangle 158.png" alt="">
+                        <h1>できること</h1>
+                        <img src="/img/Rectangle 158.png" alt="">
+                    </div>
+                    <div class="parent-what-flex">
+                        <div class="parent-what-text">
+                            <p>プログラミングとは文字を書いて<br>
+                                コンピューターに指示をすることで<br>
+                                ゲームを作ったり<br>
+                                システムを作ったりする技術です。</p>
+                            <p>子供向けに発売されている商品でも<br>
+                                自分の思い通りにロボットが動かせたり<br>
+                                ゲームを作ったりと体験が出来ます。</p>
+                        </div>
+                        <div class="parent-what-img">
+                            <img class="what-img-1" src="/img/robot2.jpg" alt="">
+                            <img class="what-img-2" src="/img/robot.jpg" alt="">
+                            <img class="what-img-3" src="/img/child1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="parent-ability">
+                    <div class="parent-title">
+                        <img src="/img/Rectangle 158.png" alt="">
+                        <h1>身に付く能力</h1>
+                        <img src="/img/Rectangle 158.png" alt="">
+                    </div>
+                    <p>プログラミング教育では<br>
+                        プログラミングのスキルだけでなく<br>
+                        子供の将来に必要な創造性や<br>
+                        問題解決能力を養うとされています。</p>
+                    <div class="parent-btn">
+                        <a href="/ability.html">さらに詳しく</a>
+                    </div>
                 </div>
             </div>
+            <div class="parent-main-2">
+                <div class="parent-together">
+                    <h1>親子で学べる</h1>
+                    <p>教材はゲームからテレビ番組とたくさん。<br>
+                        子供だけの学習ではなく<br>
+                        親子で一緒に遊びながら<br>
+                        プログラミングについて学ぶことができます。</p>
+                    <div class="parent-btn">
+                        <a href="/goods.html">さらに詳しく</a>
+                    </div>
+                    <img class="togehter-img-1" src="/img/board2.jpg" alt="">
+                    <img class="togehter-img-2" src="/img/robot2.jpg" alt="">
+                    <img class="togehter-img-3" src="/img/tetris.png" alt="">
+                    <img class="togehter-img-4" src="/img/board1.jpg" alt="">
+                    <img class="togehter-img-5" src="img/child1.jpg" alt="">
+                    <img class="togehter-img-6" src="/img/work.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="parent-footer">
+            <div class="parent-footer-1">
+                <img src="/img/遊んで学んで プログラミング.png" alt="">
+                <div class="footer-btn-1">
+                    <div class="footer-btn-ability">
+                        <div class="footer-ability-img">
+                            <img class="footer-ability-img-1" src="/img/chara-c.png" alt="">
+                            <img class="footer-ability-img-2" src="/img/chara-p.png" alt="">
+                        </div>
+                        <a href="/ability.html">身に付く能力</a>
+                    </div>
+                    <div class="footer-btn-goods">
+                        <div class="footer-goods-img">
+                            <img class="footer-goods-img-2" src="/img/thinkthink.webp" alt="">
+                            <img class="footer-goods-img-3" src="/img/toio.png" alt="">
+                            <img class="footer-goods-img-1" src="/img/scratch.png" alt="">
+                        </div>
+                        <a href="/goods.html">商品紹介</a>
+                    </div>
+                </div>
+                <div class="footer-btn-2">
+                    <div class="footer-btn-child">
+                        <a href="/index.html">子供用ページへ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="parent-footer-2"></div>
+        </section>
+        <div id="parent-menu-btn">
+            <img src="/img/menu.png" alt="">
+            <p>メニュー</p>
         </div>
-        <div class="parent-main-2">
-            <div class="parent-together">
-                <h1>親子で学べる</h1>
-                <p>プログラミング教育。<br>知って欲しい。<br>親子で学べる<br>親子で遊んでまなべる<br>ことを知ってもらう。</p>
-                <div class="parent-btn">
-                    <a href="/goods.html">さらに詳しく</a>
-                </div>
-            </div>
+    </div>
+    <nav id="parent-menu">
+        <div class="parent-menu-list">
+            <ul>
+                <li><a href="parent.html"><span>保護者用</span><br>プログラミング<br><span>トップページ</span></a></li>
+                <li><a href="ability.html">身に付く能力</a></li>
+                <li><a href="goods.html">商品紹介</a></li>
+                <li><a href="index.html"><span>子供用</span><br>プログラミング<br><span>トップページ</span></a></li>
+                <li><a href="why.html">プログラミングって何？</a></li>
+            </ul>
+            <div class="parent-menu-close"></div>
         </div>
-    </section>
-    <section class="parent-footer">
-        <div class="parent-footer-1">
-            <img src="/img/遊んで学んで プログラミング.png" alt="">
-            <div class="footer-btn-1">
-                <div class="footer-btn-ability">
-                    <a href="/ability.html">身に付く能力</a>
-                </div>
-                <div class="footer-btn-goods">
-                    <a href="/goods.html">商品紹介</a>
-                </div>
-            </div>
-            <div class="footer-btn-2">
-                <div class="footer-btn-child">
-                    <a href="/index.html">子供用ページへ</a>
-                </div>
-            </div>
-        </div>
-        <div class="parent-footer-2"></div>
-    </section>
+    </nav>
+    <script src="js/gsap.js"></script>
+    <script src="js/nav.js"></script>
 </body>
+
 </html>

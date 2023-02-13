@@ -1,0 +1,173 @@
+$font-Tks: "fot-tsukuardgothic-std",
+sans-serif;
+$color-W: #fdfdfd;
+$color-B: #4B4237;
+$color-LB: #73D2DE;
+$color-P: #FFA3AF;
+$borderR: 10px;
+$border-W: 5px solid $color-W;
+$border-W3: 3px solid $color-W;
+
+#why-main {
+    width: 100vw;
+    height: 178vh;
+    background-color: $color-LB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-family: $font-Tks;
+        font-size: 4em;
+        color: $color-W;
+        border-bottom: $border-W;
+        margin-bottom: 5%;
+    }
+
+    .why-main-first {
+        width: 47%;
+        height: 23%;
+        background-color: rgba($color-W,0.3);
+        border-radius: $borderR;
+        border: $border-W;
+        position: relative;
+
+        .why-main-firstimg-c {
+            width: 46%;
+            height: auto;
+            transform: rotate(-6deg);
+            position: absolute;
+            top: -5%;
+            left: -5%;
+        }
+
+        .why-main-firstimg {
+            width: 46%;
+            height: auto;
+            position: absolute;
+            top: 5%;
+            right: 3%;
+            border-radius: $borderR;
+            border: $border-W3;
+        }
+
+        h2 {
+            font-family: $font-Tks;
+            font-size: 3.5em;
+            color: $color-W;
+            transform: rotate(6deg);
+            position: absolute;
+            bottom: 3%;
+            left: 50%;
+        }
+    }
+
+    img {
+        width: 26.5%;
+        height: auto;
+    }
+
+    .why-main-second {
+        width: 75%;
+        height: 28%;
+        background-color: rgba($color-W,0.3);
+        border-radius: $borderR;
+        border: $border-W;
+        position: relative;
+    }
+
+    .why-main-secondimg-c {
+        width: 42%;
+        height: auto;
+        transform: rotate(6deg);
+        position: absolute;
+        top: -25%;
+        right: 3%;
+    }
+
+    .why-main-secondimg {
+        width: 48%;
+        height: auto;
+        position: absolute;
+        top: 3%;
+        bottom: 3%;
+        left: 1%;
+        border-radius: $borderR;
+        border: $border-W3;
+    }
+
+    h2 {
+        font-family: $font-Tks;
+        font-size: 7em;
+        color: $color-W;
+        transform: rotate(-5.5deg);
+        position: absolute;
+        bottom: -3%;
+        left: 15%;
+    }
+}
+
+#why-more {
+    width: 100vw;
+    height: 93vh;
+    background-color: $color-P;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    h3 {
+        font-family: $font-Tks;
+        font-size: 3em;
+        color: $color-W;
+    }
+
+    .why-more-content {
+        width: 75%;
+        height: 37%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5%;
+
+        .why-more-contentR {
+            width: 45%;
+            height: 100%;
+            position: relative;
+
+            h4 {
+                font-family: $font-Tks;
+                font-size: 3em;
+                color: $color-W;
+                transform: rotate(-10deg);
+                position: absolute;
+                top: -40%;
+                left: -5%;
+            }
+        }
+
+        .why-more-contentG {
+            width: 45%;
+            height: 100%;
+            position: relative;
+
+            h4 {
+                font-family: $font-Tks;
+                font-size: 3em;
+                color: $color-W;
+                transform: rotate(-10deg);
+                position: absolute;
+                top: -40%;
+                left: -5%;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: $borderR;
+        border: $border-W;
+    }
+}

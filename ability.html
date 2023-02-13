@@ -16,6 +16,9 @@
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
       </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js"></script>
 </head>
 <body>
   <section id="ability-top">
@@ -24,15 +27,69 @@
       <h2>遊べる、学べる</h2>
     </div>
   </section>
-  <section id="ability-contents"></section>
+  <section id="ability-contents">
+    <div class="ability-contents-0">
+    <div class="ability-contents-main ab-main-1">
+      <div class="ability-contents-text">
+        <h1>考える</h1>
+        <p>物事を順序立てて<br>考えられるようになる！</p>
+      </div>
+      <img src="/img/child1.jpg" alt="">
+    </div>
+    <div class="ability-contents-main ab-main-2 invisible">
+      <div class="ability-contents-text">
+        <h1>作る</h1>
+        <p>物事を順序立てて<br>考えられるようになる！</p>
+      </div>
+      <img src="/img/child1.jpg" alt="">
+    </div>
+    <div class="ability-contents-main ab-main-3 invisible">
+      <div class="ability-contents-text">
+        <h1>作る</h1>
+        <p>物事を順序立てて<br>考えられるようになる！</p>
+      </div>
+      <img src="/img/robot2.jpg" alt="">
+    </div>
+    <div class="ability-contents-main ab-main-4 invisible">
+      <div class="ability-contents-text">
+        <h1>作る</h1>
+        <p>物事を順序立てて<br>考えられるようになる！</p>
+      </div>
+      <img src="/img/robot3.jpg" alt="">
+    </div>
+  </div>
+    <div class="ability-contents-btn">
+      <div class="ability-contents-btn-D ab-btn-1">
+        <h2>考える</h2>
+      </div>
+      <div class="ability-contents-btn-D ab-btn-2">
+        <h2>作る</h2>
+      </div>
+      <div class="ability-contents-btn-D ab-btn-3">
+        <h2>思考力</h2>
+      </div>
+      <div class="ability-contents-btn-D ab-btn-4">
+        <h2>サンプル</h2>
+      </div>
+    </div>
+  </section>
   <section class="parent-footer">
     <div class="parent-footer-1">
         <img src="/img/遊んで学んで プログラミング.png" alt="">
         <div class="footer-btn-1">
             <div class="footer-btn-ability">
+                <div class="footer-ability-img">
+                    <img class="footer-ability-img-1" src="/img/chara-c.png" alt="">
+                    <img class="footer-ability-img-2" src="/img/chara-p.png" alt="">
+                </div>
                 <a href="/ability.html">身に付く能力</a>
             </div>
             <div class="footer-btn-goods">
+                <div class="footer-goods-img">
+                    <img class="footer-goods-img-2" src="/img/thinkthink.webp" alt="">
+                    <img class="footer-goods-img-3" src="/img/toio.png" alt="">
+                    <img class="footer-goods-img-1" src="/img/scratch.png" alt="">
+                </div>
                 <a href="/goods.html">商品紹介</a>
             </div>
         </div>
@@ -44,5 +101,7 @@
     </div>
     <div class="parent-footer-2"></div>
 </section>
+<script src="js/gsap.js"></script>
+<script src="js/ability.js"></script>
 </body>
 </html>
