@@ -1648,7 +1648,7 @@ body {
 }
 #ability-contents .ability-contents-0 .ability-contents-main .ability-contents-text p {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 2em;
+  font-size: 1.2em;
   color: #4B4237;
 }
 #ability-contents .ability-contents-0 .ability-contents-main img {
@@ -2138,6 +2138,7 @@ body {
   font-size: 2em;
   text-align: center;
   margin: 5% 0;
+  color: #4B4237;
   line-height: 120%;
 }
 .goods-info h3 span {
@@ -2161,7 +2162,9 @@ body {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   text-align: center;
   font-size: 1em;
+  line-height: 200%;
   color: #4B4237;
+  font-weight: bold;
 }
 .goods-info .goods-info-main .product {
   width: 90%;
