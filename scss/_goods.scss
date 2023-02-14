@@ -316,7 +316,256 @@ $borderR-img: 5px;
 // }
 
 
-@media screen and (max-width) {
+@media screen and (max-width:600px) {
+    #goods-top {
+        height: 30vh;
+    
+        .goods-top-heading {
+            width: 67%;
+            height: 48%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            h1 {
+                font-size: 2em;
+                margin-bottom: -5%;
+            }
+    
+            h2 {
+                font-size: 0.8em;
+            }
+        }
+    }
+
+    #goods-main {
+        height: 485vh;
+    
+        .goods-main-game {
+            width: 100%;
+            height: 21%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .item-flex {
+                margin: $margin-center;
+                width: 60%;
+                height: 78%;
+                margin-bottom: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .item {
+                width: 100%;
+                height: 29%;
+                background-color: $color-W;
+                text-align: center;
+            
+                img {
+                    width: 85%;
+                    height: 60%;
+                    margin-top: 5%;
+                }
+            
+                h2 {
+                    font-family: $font-Tks;
+                    font-size: 1em;
+                    color: $color-B;
+                    text-align: center;
+                    margin: 3%;
+                }
+            }
+        }
+    
+        .goods-main-game::before {
+            border-width: 20px 100vw 0 0;
+        }
+    
+        .goods-main-robot {
+            width: 100%;
+            height: 23%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .item-flex {
+                margin: $margin-center;
+                width: 60%;
+                height: 72%;
+                margin-bottom: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .item {
+                width: 100%;
+                height: 29%;
+                background-color: $color-W;
+                text-align: center;
+            
+                img {
+                    width: 85%;
+                    height: 60%;
+                    margin-top: 5%;
+                }
+            
+                h2 {
+                    font-family: $font-Tks;
+                    font-size: 1em;
+                    color: $color-B;
+                    text-align: center;
+                    margin: 3%;
+                }
+            }
+        }
+    
+        .goods-main-robot::before {
+            border-width: 20px 100vw 0 0;
+        }
+    
+        .goods-main-analog {
+            width: 100%;
+            height: 23%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .item-flex {
+                margin: $margin-center;
+                width: 60%;
+                height: 72%;
+                margin-bottom: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .item {
+                width: 100%;
+                height: 29%;
+                background-color: $color-W;
+                text-align: center;
+            
+                img {
+                    width: 85%;
+                    height: 60%;
+                    margin-top: 5%;
+                }
+            
+                h2 {
+                    font-family: $font-Tks;
+                    font-size: 1em;
+                    color: $color-B;
+                    text-align: center;
+                    margin: 3%;
+                }
+            }
+        }
+    
+        .goods-main-analog::before {
+            border-width: 20px 100vw 0 0;
+        }
+    
+        .goods-main-thinking {
+            width: 100%;
+            height: 16.5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .item-flex {
+                margin: $margin-center;
+                width: 60%;
+                height: 64%;
+                margin-bottom: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .item {
+                width: 100%;
+                height: 45.5%;
+                text-align: center;
+                
+            
+                img {
+                    width: 85%;
+                    height: 60%;
+                    margin-top: 5%;
+                }
+            
+                h2 {
+                    font-size: 1em;
+                    text-align: center;
+                    margin: 3%;
+                }
+            }
+        }
+    
+        .goods-main-thinking::before {
+            border-width: 20px 100vw 0 0;
+        }
+    
+        .goods-main-tv {
+            width: 100%;
+            height: 16.5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .item-flex {
+                margin: $margin-center;
+                width: 60%;
+                height: 64%;
+                margin-bottom: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .item {
+                width: 100%;
+                height: 45.5%;
+                text-align: center;
+            
+                img {
+                    width: 85%;
+                    height: 60%;
+                    margin-top: 5%;
+                }
+            
+                h2 {
+                    font-size: 1em;
+                    text-align: center;
+                    margin: 3%;
+                }
+            }
+        }
+    
+        .goods-main-tv::before {
+            border-width: 20px 100vw 0 0;
+        }
+    }
+
+    .item-title {
+        font-size: 2em;
+        padding-top: 4%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+
+
     .parent-footer {
         width: 100vw;
         height: 64vh;

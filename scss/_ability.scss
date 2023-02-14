@@ -219,6 +219,95 @@ $borderR-img: 5px;
 }
 
 @media screen and (max-width:600px){
+    #ability-top {
+        height: 30vh;
+    
+        .ability-top-heading {
+            width: 67%;
+            height: 48%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            h1 {
+                font-size: 2em;
+            }
+        
+            h2 {
+                font-size: 0.8em;
+            }
+        }
+    }
+
+    #ability-contents {
+        height: 82.5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+        .ability-contents-0 {
+            width: 68%;
+            height: 50%;
+    
+            .ability-contents-main {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column-reverse;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+        
+                .ability-contents-text {
+                    width: 100%;
+                    height: 36%;
+                    text-align: center;
+        
+                    h1 {
+                        font-size: 2em;
+                    }
+        
+                    p {
+                        font-size: 1em;
+                    }
+                }
+        
+                img {
+                    width: auto;
+                    height: 64%;
+                }
+            }
+        }
+    
+    
+        .ability-contents-btn {
+            width: 60%;
+            height: 24%;
+            margin-bottom: 5%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+    
+            .ability-contents-btn-D {
+                width: 45%;
+                height: 44%;
+                background-color: $color-EG;
+    
+                h2 {
+                    font-family: $font-Tks;
+                    color: $color-B;
+                    font-size: 1em;
+                }
+            }
+        }
+    
+    }
+    
+    #ability-contents::before {
+        border-width: 20px 100vw 0 0;
+    }
+
     .parent-footer {
         width: 100vw;
         height: 64vh;

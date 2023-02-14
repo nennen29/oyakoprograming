@@ -7,6 +7,7 @@ $color-P: #FFA3AF;
 $borderR: 10px;
 $border-W: 5px solid $color-W;
 $border-W3: 3px solid $color-W;
+$border-W2: 2px solid $color-W;
 
 #why-main {
     width: 100vw;
@@ -169,5 +170,147 @@ $border-W3: 3px solid $color-W;
         height: auto;
         border-radius: $borderR;
         border: $border-W;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #why-main {
+        height: 107vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+        h1 {
+            font-size: 1.5em;
+            border-bottom: $border-W3;
+            margin-bottom: 10%;
+        }
+    
+        .why-main-first {
+            width: 82%;
+            height: 31.5%;
+            background-color: rgba($color-W,0.3);
+            border-radius: $borderR;
+            border: $border-W3;
+    
+            .why-main-firstimg-c {
+                width: auto;
+                height: 49%;
+                transform: rotate(-6deg);
+                top: 50%;
+                left: -5%;
+                z-index: 100;
+            }
+    
+            .why-main-firstimg {
+                width: 80%;
+                height: auto;
+                top: 5%;
+                right: 9%;
+                border-radius: $borderR;
+                border: $border-W2;
+            }
+    
+            h2 {
+                font-size: 2.5em;
+                transform: rotate(6deg);
+                bottom: -5%;
+                left: 40%;
+            }
+        }
+    
+        img {
+            width: 26.5%;
+            height: auto;
+        }
+    
+        .why-main-second {
+            width: 82%;
+            height: 31.5%;
+            border-radius: $borderR;
+            border: $border-W3;
+        }
+    
+        .why-main-secondimg-c {
+            width: auto;
+            height: 66.5%;
+            transform: rotate(6deg);
+            top: 40%;
+            right: -5%;
+            z-index: 100;
+        }
+    
+        .why-main-secondimg {
+            width: 80%;
+            height: auto;
+            top: 5%;
+            left: 9%;
+            border-radius: $borderR;
+            border: $border-W2;
+        }
+    
+        h2 {
+            font-size: 3em;
+            transform: rotate(-5.5deg);
+            bottom: -3%;
+            left: 0%;
+        }
+    }
+
+    #why-more {
+        width: 100vw;
+        height: 81vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+        h3 {
+            font-size: 1.5em;
+        }
+    
+        .why-more-content {
+            width: 82%;
+            height: 74%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-bottom: 5%;
+    
+            .why-more-contentR {
+                width: 100%;
+                height: 32%;
+                text-align: center;
+    
+                h4 {
+                    font-size: 2em;
+                    transform: rotate(-10deg);
+                    top: -40%;
+                    left: 5%;
+                }
+            }
+    
+            .why-more-contentG {
+                width: 100%;
+                height: 32%;
+                text-align: center;
+    
+                h4 {
+                    font-size: 2em;
+                    transform: rotate(-10deg);
+                    top: -40%;
+                    left: 5%;
+                }
+            }
+        }
+    
+        img {
+            width: auto;
+            height: 100%;
+            border-radius: $borderR;
+            border: $border-W3;
+        }
     }
 }
