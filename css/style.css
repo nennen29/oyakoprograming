@@ -245,6 +245,10 @@
   height: 100%;
   position: relative;
 }
+#main .more .more-body .more-text img {
+  width: 40%;
+  height: auto;
+}
 #main .more .more-body .more-text p {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
@@ -255,31 +259,51 @@
   position: absolute;
   top: -10%;
   left: 10%;
+  display: flex;
+  align-items: center;
 }
 #main .more .more-body .more-text .more-p2 {
   position: absolute;
   top: 30%;
-  left: 60%;
+  left: 35%;
+  display: flex;
+  align-items: center;
 }
 #main .more .more-body .more-text .more-p3 {
   position: absolute;
   top: 80%;
   left: 20%;
+  display: flex;
+  align-items: center;
 }
 #main .more .more-body .more-text .more-p4 {
   position: absolute;
   top: -10%;
   left: -30%;
+  display: flex;
+  align-items: center;
+}
+#main .more .more-body .more-text .more-p4 img {
+  width: 20%;
+  height: auto;
 }
 #main .more .more-body .more-text .more-p5 {
   position: absolute;
   top: 30%;
-  left: 40%;
+  left: 10%;
+  display: flex;
+  align-items: center;
 }
 #main .more .more-body .more-text .more-p6 {
   position: absolute;
   top: 80%;
   left: 0%;
+  display: flex;
+  align-items: center;
+}
+#main .more .more-body .more-text .more-p6 img {
+  width: 20%;
+  height: auto;
 }
 
 #footer {
@@ -483,7 +507,7 @@
   #main .more .more-body .more-text .more-p2 {
     font-size: 1.5em;
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: -20%;
   }
   #main .more .more-body .more-text .more-p3 {
@@ -498,8 +522,9 @@
   }
   #main .more .more-body .more-text .more-p5 {
     position: absolute;
-    top: 30%;
-    left: 40%;
+    top: 35%;
+    left: 30%;
+    font-size: 1.5em;
   }
   #main .more .more-body .more-text .more-p6 {
     position: absolute;
@@ -1600,7 +1625,7 @@ body {
 }
 #ability-top .ability-top-heading {
   width: 50%;
-  height: 40%;
+  height: 50%;
   background-color: #fdfdfd;
   opacity: 70%;
   border-radius: 10px;
@@ -1667,6 +1692,7 @@ body {
   width: 20%;
   height: 100%;
   background-color: #A2C3AB;
+  border-radius: 5px;
 }
 #ability-contents .ability-contents-btn .ability-contents-btn-D h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
@@ -1975,7 +2001,7 @@ body {
 }
 #goods-top .goods-top-heading {
   width: 50%;
-  height: 40%;
+  height: 50%;
   background-color: #fdfdfd;
   opacity: 70%;
   border-radius: 10px;
@@ -1984,6 +2010,7 @@ body {
 #goods-top .goods-top-heading h1 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-size: 3em;
+  margin-bottom: -10%;
 }
 #goods-top .goods-top-heading h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
@@ -2636,7 +2663,7 @@ body {
   right: 3%;
 }
 #why-main .why-main-secondimg {
-  width: 48%;
+  width: 45%;
   height: auto;
   position: absolute;
   top: 3%;
