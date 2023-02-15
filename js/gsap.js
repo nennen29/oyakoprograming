@@ -111,38 +111,42 @@
                 scale: 1,
                 duration: 0.2,
                 delay: 0.5,
-                ease: 'power4.out',
+                ease: 'power3.out',
             }).to(
             topCharacterP, {
                 // opacity: 1,
                 scale: 1,
                 duration: 0.2,
                 delay: 0.5,
-                ease: 'power4.out',
+                ease: 'power3.out',
             }
         ).to(
             topTextFirst, {
                 opacity: 1,
                 duration: 0.2,
                 delay: 0.5,
+                ease: 'power3.out',
             }
         ).to(
             topTextSecond, {
                 opacity: 1,
                 duration: 0.2,
-                delay: 0.5,
+                delay: 0.3,
+                ease: 'power3.out',
             }
         ).to(
             topTextThird, {
                 scale: 1,
                 duration: 0.2,
-                delay: 0.5,
+                delay: 0.3,
+                ease: 'power3.out',
             }
         ).to(
             topImg, {
                 scale: -1,
                 duration: 0.2,
-                delay: 0.5,
+                delay: 0,
+                ease: 'power3.out',
             }
         ).to(
             topBackground, {
@@ -150,6 +154,7 @@
                 y: 0,
                 duration: 0.8,
                 delay: 0.5,
+                ease: 'power3.out',
                 // stagger: {
                 //   amount: 0.6,
                 //   from: "start",

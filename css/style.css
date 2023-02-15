@@ -20,17 +20,17 @@
 }
 #top .top-main .top-text .top-text-first {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 2.3em;
+  font-size: 5rem;
   color: #fdfdfd;
   font-weight: bold;
   position: absolute;
-  top: 20%;
-  left: 25%;
+  top: 15%;
+  left: 23%;
   transform: rotate(-10deg);
 }
 #top .top-main .top-text .top-text-second {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 2.3em;
+  font-size: 5rem;
   color: #fdfdfd;
   font-weight: bold;
   position: absolute;
@@ -47,12 +47,12 @@
 }
 #top .top-main .top-text .top-text-third {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 4em;
+  font-size: 8rem;
   color: #fdfdfd;
   font-weight: bold;
   position: absolute;
   top: 40%;
-  left: 25%;
+  left: 23%;
 }
 #top .top-main .top-character {
   width: 100%;
@@ -222,6 +222,92 @@
   color: #F7DD72;
   text-decoration: none;
   text-align: center;
+}
+#main .desc-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#main .desc-background .desc-background1 {
+  width: 10%;
+  height: auto;
+  -webkit-animation: desc-background1 50s infinite;
+          animation: desc-background1 50s infinite;
+}
+@-webkit-keyframes desc-background1 {
+  0% {
+    transform: translate(100vw, 0vh);
+  }
+  100% {
+    transform: translate(0vw, 120vh);
+  }
+}
+@keyframes desc-background1 {
+  0% {
+    transform: translate(100vw, 0vh);
+  }
+  100% {
+    transform: translate(0vw, 120vh);
+  }
+}
+#main .desc-background .desc-background2 {
+  width: 10%;
+  height: auto;
+  -webkit-animation: desc-background2 50s infinite;
+          animation: desc-background2 50s infinite;
+}
+@keyframes desc-background1 {
+  0% {
+    transform: translate(100vw, 0vh);
+  }
+  100% {
+    transform: translate(0vw, 120vh);
+  }
+}
+#main .desc-background .desc-background3 {
+  width: 10%;
+  height: auto;
+  -webkit-animation: desc-background3 50s infinite;
+          animation: desc-background3 50s infinite;
+}
+@-webkit-keyframes desc-background3 {
+  0% {
+    transform: translate(90vw, -10vh);
+  }
+  100% {
+    transform: translate(0vw, 120vh);
+  }
+}
+@keyframes desc-background3 {
+  0% {
+    transform: translate(90vw, -10vh);
+  }
+  100% {
+    transform: translate(0vw, 120vh);
+  }
+}
+#main .desc-background .desc-background4 {
+  width: 10%;
+  height: auto;
+  -webkit-animation: desc-background4 50s infinite;
+          animation: desc-background4 50s infinite;
+}
+@-webkit-keyframes desc-background4 {
+  0% {
+    transform: translate(100vw, 0vh);
+  }
+  100% {
+    transform: translate(0vw, 120vh);
+  }
+}
+@keyframes desc-background4 {
+  0% {
+    transform: translate(100vw, 0vh);
+  }
+  100% {
+    transform: translate(0vw, 120vh);
+  }
 }
 #main .more {
   width: 100vw;
@@ -1122,7 +1208,7 @@ body {
   top: 0;
   right: -100%;
   width: 30vw;
-  height: 156vh;
+  height: 100vh;
   background-color: #1EAAAA;
   transition: all 0.6s;
   overflow: auto;
@@ -1130,7 +1216,7 @@ body {
 }
 #parent-menu ul {
   width: 100%;
-  height: 100%;
+  height: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1148,12 +1234,31 @@ body {
 #parent-menu ul li a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   color: #fdfdfd;
-  font-size: 1.8em;
+  font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
+  line-height: 180%;
 }
 #parent-menu ul li span {
-  font-size: 0.8em;
+  font-size: 2rem;
+}
+#parent-menu ul li .parent-menu-close {
+  width: 50px;
+  height: 50px;
+  background-color: #F7A514;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#parent-menu ul li .parent-menu-close p {
+  font-family: "fot-tsukuardgothic-std", sans-serif;
+  color: #fdfdfd;
+  font-size: 4rem;
+}
+#parent-menu ul li:last-child {
+  border: none;
 }
 
 #parent-menu.menu-active {
@@ -1180,7 +1285,7 @@ body {
 #parent-menu-btn p {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   color: #fdfdfd;
-  font-size: 1em;
+  font-size: 1.5rem;
   margin-bottom: 10%;
 }
 
@@ -1991,6 +2096,10 @@ body {
     background-color: #1EAAAA;
   }
 }
+html {
+  font-size: 62.5%;
+}
+
 #goods-top {
   width: 100vw;
   height: 50vh;
@@ -2005,15 +2114,18 @@ body {
   background-color: #fdfdfd;
   opacity: 70%;
   border-radius: 10px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 #goods-top .goods-top-heading h1 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 3em;
-  margin-bottom: -10%;
+  font-size: 6rem;
 }
 #goods-top .goods-top-heading h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
+  font-size: 3rem;
 }
 
 #goods-main {
@@ -2129,7 +2241,7 @@ body {
 }
 .item h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 1.5em;
+  font-size: 2.5rem;
   color: #4B4237;
   text-align: center;
   margin: 3%;
@@ -2137,7 +2249,7 @@ body {
 
 .item-title {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 3em;
+  font-size: 5rem;
   color: #fdfdfd;
   margin-left: 12%;
   margin-bottom: 8%;
@@ -2146,25 +2258,26 @@ body {
 
 .goods-info {
   width: 45vw;
-  height: 115vh;
+  height: 90vh;
   padding-bottom: 3%;
   background-color: #fdfdfd;
-  position: absolute;
-  top: 10%;
+  position: fixed;
+  top: 5%;
   left: 0;
   right: 0;
   margin: 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
   opacity: 0;
   visibility: hidden;
 }
 .goods-info h3 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 2em;
+  font-size: 4rem;
   text-align: center;
-  margin: 5% 0;
+  margin: 5% 0 2% 0;
   color: #4B4237;
   line-height: 120%;
 }
@@ -2173,7 +2286,7 @@ body {
 }
 .goods-info .goods-info-main {
   width: 90%;
-  height: 80%;
+  height: 90%;
   background-color: #A5EF83;
   padding: 5% 0;
   display: flex;
@@ -2183,19 +2296,19 @@ body {
 }
 .goods-info .goods-info-main img {
   width: 90%;
-  height: auto;
+  height: 50%;
 }
 .goods-info .goods-info-main p {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5rem;
   line-height: 200%;
   color: #4B4237;
   font-weight: bold;
 }
 .goods-info .goods-info-main .product {
   width: 90%;
-  height: 30%;
+  height: 25%;
   background-color: #fdfdfd;
   display: flex;
   justify-content: center;
@@ -2207,7 +2320,7 @@ body {
 .goods-info .goods-info-main .product .product-left h4 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   color: #fdfdfd;
-  font-size: 1em;
+  font-size: 1.5rem;
   color: #4B4237;
   line-height: 120%;
   margin: 10% 0 8% 0;
@@ -2261,7 +2374,7 @@ body {
   top: -4%;
   right: -6%;
   width: 11%;
-  height: 8%;
+  height: 10%;
   background-color: #F0D150;
   border-radius: 50%;
 }
