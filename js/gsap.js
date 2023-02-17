@@ -6,6 +6,7 @@
         const topTextFirst = '#top-text-first';
         const topTextSecond = '#top-text-second';
         const topTextThird = '#top-text-third';
+        const topTextThirdspan = '#top-text-third>span';
         const topImg = '#top-img';
         const topBackground = '.top-background';
         const title1 = '#desc-body-h1';
@@ -42,7 +43,10 @@
             y: 0,
         });
         gsap.set(topTextThird, {
-            scale: 0,
+            scale: 1,
+        });
+        gsap.set(topTextThirdspan, {
+            opacity:0
         });
         gsap.set(topImg, {
             scale: 0,
@@ -111,42 +115,48 @@
                 scale: 1,
                 duration: 0.2,
                 delay: 0.5,
-                ease: 'power3.out',
+                ease: 'power1.out',
             }).to(
             topCharacterP, {
                 // opacity: 1,
                 scale: 1,
                 duration: 0.2,
-                delay: 0.5,
-                ease: 'power3.out',
-            }
+                delay: 0,
+                ease: 'power1.out',
+            },'-=0.1'
         ).to(
             topTextFirst, {
                 opacity: 1,
                 duration: 0.2,
                 delay: 0.5,
-                ease: 'power3.out',
+                ease: 'power1.out',
             }
         ).to(
             topTextSecond, {
                 opacity: 1,
                 duration: 0.2,
-                delay: 0.3,
-                ease: 'power3.out',
-            }
-        ).to(
-            topTextThird, {
-                scale: 1,
+                delay: 0,
+                ease: 'power1.out',
+            },'-=0.1'
+        )
+        .to(
+            topTextThirdspan, {
+                opacity:1,
                 duration: 0.2,
                 delay: 0.3,
-                ease: 'power3.out',
+                stagger: {
+                    amount: 0.6,
+                    ease: 'power1.out',
+                    from: 'start',
+                }
             }
-        ).to(
+        )
+        .to(
             topImg, {
                 scale: -1,
                 duration: 0.2,
-                delay: 0,
-                ease: 'power3.out',
+                delay: 0.5,
+                ease: 'power1.out',
             }
         ).to(
             topBackground, {
@@ -154,7 +164,7 @@
                 y: 0,
                 duration: 0.8,
                 delay: 0.5,
-                ease: 'power3.out',
+                ease: 'power1.out',
                 // stagger: {
                 //   amount: 0.6,
                 //   from: "start",
@@ -300,7 +310,7 @@
     })();
 
     function splitText() {
-        const Text1 = document.querySelectorAll('#top-text-third');
+        const Text1 = document.querySelectorAll('#desc-body-h1');
         Text1.forEach(target => {
             let newText = '';
             const text = target.textContent;
@@ -310,11 +320,8 @@
             }
             target.innerHTML = newText;
         });
-    }
-
-    function splitText() {
-        const Text1 = document.querySelectorAll('#desc-body-h1');
-        Text1.forEach(target => {
+        const topTextThird = document.querySelectorAll('#top-text-third');
+        topTextThird.forEach(target => {
             let newText = '';
             const text = target.textContent;
             const result = text.split('');

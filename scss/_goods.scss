@@ -343,12 +343,12 @@ html {
             justify-content: center;
 
             h1 {
-                font-size: 2em;
+                font-size: 3rem;
                 margin-bottom: -5%;
             }
 
             h2 {
-                font-size: 0.8em;
+                font-size: 1rem;
             }
         }
     }
@@ -388,7 +388,7 @@ html {
 
                 h2 {
                     font-family: $font-Tks;
-                    font-size: 1em;
+                    font-size: 1.5rem;
                     color: $color-B;
                     text-align: center;
                     margin: 3%;
@@ -432,7 +432,7 @@ html {
 
                 h2 {
                     font-family: $font-Tks;
-                    font-size: 1em;
+                    font-size: 1.5rem;
                     color: $color-B;
                     text-align: center;
                     margin: 3%;
@@ -476,7 +476,7 @@ html {
 
                 h2 {
                     font-family: $font-Tks;
-                    font-size: 1em;
+                    font-size: 1.5rem;
                     color: $color-B;
                     text-align: center;
                     margin: 3%;
@@ -519,7 +519,7 @@ html {
                 }
 
                 h2 {
-                    font-size: 1em;
+                    font-size: 1.5rem;
                     text-align: center;
                     margin: 3%;
                 }
@@ -560,7 +560,7 @@ html {
                 }
 
                 h2 {
-                    font-size: 1em;
+                    font-size: 1.5rem;
                     text-align: center;
                     margin: 3%;
                 }
@@ -573,12 +573,151 @@ html {
     }
 
     .item-title {
-        font-size: 2em;
+        font-size: 3rem;
         padding-top: 4%;
         margin: 0 auto;
         margin-bottom: 5%;
     }
 
+    .goods-info {
+        width: 90vw;
+        height: 80vh;
+        padding-bottom: 3%;
+        background-color: $color-W;
+        position: fixed;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        opacity: 0;
+        visibility: hidden;
+    
+    
+        h3 {
+            font-family: $font-Tks;
+            font-size: 2.3rem;
+            text-align: center;
+            margin: 5% 0 2% 0;
+            color: $color-B;
+            line-height: 120%;
+    
+            span {
+                font-size: 1.5rem;
+            }
+        }
+    
+        .goods-info-main {
+            width: 90%;
+            height: 90%;
+            background-color: #A5EF83;
+            padding: 5% 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            img {
+                width: 90%;
+                height: auto;
+            }
+    
+            p {
+                font-family: $font-Tks;
+                text-align: center;
+                font-size: 1.3rem;
+                line-height: 200%;
+                color: $color-B;
+                font-weight: bold;
+            }
+    
+            .product {
+                width: 90%;
+                height: 25%;
+                background-color: $color-W;
+                display: flex;
+                justify-content: center;
+    
+                .product-left {
+                    width: 55%;
+                    height: 100%;
+    
+                    h4 {
+                        font-family: $font-Tks;
+                        color: $color-W;
+                        font-size: 1rem;
+                        color: $color-B;
+                        line-height: 120%;
+                        margin: 10% 0 8% 0;
+    
+                        span {
+                            font-size: 0.1rem;
+                        }
+                    }
+    
+                    p {
+                        font-family: $font-Tks;
+                        color: $color-W;
+                        font-size: 0.2rem;
+                        color: $color-B;
+                        text-align: left;
+                        font-weight: bold;
+                        line-height: 250%;
+                    }
+                }
+    
+                .product-right {
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+    
+                    img {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: 10%;
+                    }
+    
+                    .product-right-btn {
+                        width: 100%;
+                        height: 15%;
+                        background-color: #F0D150;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 10px;
+    
+                        a {
+                            text-decoration: none;
+                            font-family: $font-Tks;
+                            color: $color-W;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .goods-info-close {
+        position: absolute;
+        top: -4%;
+        right: -6%;
+        width: 11%;
+        height: 10%;
+        background-color: #F0D150;
+        border-radius: 50%;
+    }
 
     .parent-footer {
         width: 100vw;
@@ -640,7 +779,7 @@ html {
                     a {
                         font-family: $font-Tks;
                         font-weight: bold;
-                        font-size: 1em;
+                        font-size: 1.5rem;
                         text-decoration: none;
                         color: $color-B;
                     }
@@ -681,7 +820,7 @@ html {
                     }
 
                     a {
-                        font-size: 1em;
+                        font-size: 1.5rem;
                     }
                 }
             }
@@ -700,7 +839,7 @@ html {
                     justify-content: center;
 
                     a {
-                        font-size: 1em;
+                        font-size: 1.5rem;
                     }
                 }
             }

@@ -207,7 +207,7 @@ $borderR-img: 5px;
             position: relative;
 
             h1 {
-                font-size: 3.5em;
+                font-size: 6rem;
                 text-align: center;
                 font-family: $font-Tks;
                 color: $color-W;
@@ -249,7 +249,7 @@ $borderR-img: 5px;
                 margin-top: 3%;
                 
                 a {
-                    font-size: 2em;
+                    font-size: 4rem;
                     font-family: $font-Tks;
                     color: #F7DD72;
                     text-decoration: none;
@@ -357,7 +357,7 @@ $borderR-img: 5px;
                 p {
                     font-family: $font-Tks;
                     font-weight: bold;
-                    font-size: 4em;
+                    font-size: 7rem;
                     color: $color-W;
                 }
 
@@ -451,7 +451,7 @@ $borderR-img: 5px;
             a {
                 text-decoration: none;
                 font-family: $font-Tks;
-                font-size: 3em;
+                font-size: 6rem;
                 font-weight: bold;
                 color: $color-B;
             }
@@ -462,12 +462,14 @@ $borderR-img: 5px;
             height: 15%;
             background-color: #A9F3F3;
             border-radius: 10px;
-            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
     
             a {
                 text-decoration: none;
                 font-family: $font-Tks;
-                font-size: 2em;
+                font-size: 4rem;
                 font-weight: bold;
                 color: $color-B;
             }
@@ -491,13 +493,13 @@ $borderR-img: 5px;
             .top-text {
     
                 .top-text-first {
-                    font-size: 1.5em;
+                    font-size: 2rem;
                     top: 30%;
                     left: 17%;
                 }
     
                 .top-text-second {
-                    font-size: 1.5em;
+                    font-size: 2rem;
                     top: 30%;
                     left: 40%;
                 }
@@ -508,7 +510,7 @@ $borderR-img: 5px;
                 }
     
                 .top-text-third {
-                    font-size: 1.9em;
+                    font-size: 3rem;
                     top: 50%;
                     left: 15%;
                 }
@@ -606,7 +608,7 @@ $borderR-img: 5px;
                 margin-top: 20%;
     
                 h1 {
-                    font-size: 1.3em;
+                    font-size: 2rem;
                 }
     
                 img {
@@ -629,12 +631,12 @@ $borderR-img: 5px;
     
                 .desc-body-btn {
                     width: 100%;
-                    height: 10%;
+                    height: 8%;
                     border-radius: 25px;
                     margin-top: 15%;
                     
                     a {
-                        font-size: 1.5em;     
+                        font-size: 1.5rem;     
                     }
                 }
             }
@@ -663,7 +665,7 @@ $borderR-img: 5px;
                     p {
                         font-family: $font-Tks;
                         font-weight: bold;
-                        font-size: 2em;
+                        font-size: 2rem;
                         color: $color-W;
                     }
     
@@ -695,7 +697,7 @@ $borderR-img: 5px;
                     .more-p5 {
                         position: absolute;
                         top: 35%;
-                        left: 30%;
+                        left: 10%;
                         font-size: 1.5em;
                     }
     
@@ -737,7 +739,7 @@ $borderR-img: 5px;
                 a {
                     text-decoration: none;
                     font-family: $font-Tks;
-                    font-size: 1.2em;
+                    font-size: 1.8rem;
                     font-weight: bold;
                     color: $color-B;
                 }
@@ -753,7 +755,7 @@ $borderR-img: 5px;
                 a {
                     text-decoration: none;
                     font-family: $font-Tks;
-                    font-size: 1em;
+                    font-size: 1.5rem;
                     font-weight: bold;
                     color: $color-B;
                 }

@@ -179,7 +179,7 @@
   position: relative;
 }
 #main .desc .desc-body h1 {
-  font-size: 3.5em;
+  font-size: 6rem;
   text-align: center;
   font-family: "fot-tsukuardgothic-std", sans-serif;
   color: #fdfdfd;
@@ -217,7 +217,7 @@
   margin-top: 3%;
 }
 #main .desc .desc-body .desc-body-btn a {
-  font-size: 2em;
+  font-size: 4rem;
   font-family: "fot-tsukuardgothic-std", sans-serif;
   color: #F7DD72;
   text-decoration: none;
@@ -338,7 +338,7 @@
 #main .more .more-body .more-text p {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 7rem;
   color: #fdfdfd;
 }
 #main .more .more-body .more-text .more-p1 {
@@ -419,7 +419,7 @@
 #footer .footer-main .footer-btn-1 a {
   text-decoration: none;
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 3em;
+  font-size: 6rem;
   font-weight: bold;
   color: #4B4237;
 }
@@ -428,12 +428,14 @@
   height: 15%;
   background-color: #A9F3F3;
   border-radius: 10px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #footer .footer-main .footer-btn-2 a {
   text-decoration: none;
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 2em;
+  font-size: 4rem;
   font-weight: bold;
   color: #4B4237;
 }
@@ -445,12 +447,12 @@
 
 @media screen and (max-width: 600px) {
   #top .top-main .top-text .top-text-first {
-    font-size: 1.5em;
+    font-size: 2rem;
     top: 30%;
     left: 17%;
   }
   #top .top-main .top-text .top-text-second {
-    font-size: 1.5em;
+    font-size: 2rem;
     top: 30%;
     left: 40%;
   }
@@ -459,7 +461,7 @@
     left: 60%;
   }
   #top .top-main .top-text .top-text-third {
-    font-size: 1.9em;
+    font-size: 3rem;
     top: 50%;
     left: 15%;
   }
@@ -534,7 +536,7 @@
     margin-top: 20%;
   }
   #main .desc .desc-body h1 {
-    font-size: 1.3em;
+    font-size: 2rem;
   }
   #main .desc .desc-body img {
     width: 100%;
@@ -553,12 +555,12 @@
   }
   #main .desc .desc-body .desc-body-btn {
     width: 100%;
-    height: 10%;
+    height: 8%;
     border-radius: 25px;
     margin-top: 15%;
   }
   #main .desc .desc-body .desc-body-btn a {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   #main .more {
     width: 100vw;
@@ -582,7 +584,7 @@
   #main .more .more-body .more-text p {
     font-family: "fot-tsukuardgothic-std", sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2rem;
     color: #fdfdfd;
   }
   #main .more .more-body .more-text .more-p1 {
@@ -609,7 +611,7 @@
   #main .more .more-body .more-text .more-p5 {
     position: absolute;
     top: 35%;
-    left: 30%;
+    left: 10%;
     font-size: 1.5em;
   }
   #main .more .more-body .more-text .more-p6 {
@@ -644,7 +646,7 @@
   #footer .footer-main .footer-btn-1 a {
     text-decoration: none;
     font-family: "fot-tsukuardgothic-std", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #4B4237;
   }
@@ -658,7 +660,7 @@
   #footer .footer-main .footer-btn-2 a {
     text-decoration: none;
     font-family: "fot-tsukuardgothic-std", sans-serif;
-    font-size: 1em;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #4B4237;
   }
@@ -699,17 +701,17 @@ body {
 }
 #parent-top .top-main .top-text .top-text-first {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 2.3em;
+  font-size: 5rem;
   color: #fdfdfd;
   font-weight: bold;
   position: absolute;
-  top: 20%;
-  left: 25%;
+  top: 15%;
+  left: 23%;
   transform: rotate(-10deg);
 }
 #parent-top .top-main .top-text .top-text-second {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 2.3em;
+  font-size: 5rem;
   color: #fdfdfd;
   font-weight: bold;
   position: absolute;
@@ -726,7 +728,7 @@ body {
 }
 #parent-top .top-main .top-text .top-text-third {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 4em;
+  font-size: 8rem;
   color: #fdfdfd;
   font-weight: bold;
   position: absolute;
@@ -942,13 +944,13 @@ body {
 #parent-main .parent-main-1 .parent-title h1 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   color: #1EAAAA;
-  font-size: 3em;
+  font-size: 5rem;
   margin: 0 5%;
 }
 #parent-main .parent-main-1 p {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2.5rem;
   text-align: center;
   color: #4B4237;
 }
@@ -1028,17 +1030,17 @@ body {
 }
 #parent-main .parent-main-2 h1 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 4em;
+  font-size: 6rem;
   color: #fdfdfd;
   text-align: center;
 }
 #parent-main .parent-main-2 p {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2.5rem;
   text-align: center;
   color: #fdfdfd;
-  margin: 3% 0;
+  margin: 3% 0 5% 0;
 }
 #parent-main .parent-main-2::before {
   content: "";
@@ -1067,7 +1069,7 @@ body {
   color: #fdfdfd;
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2rem;
 }
 
 .parent-footer {
@@ -1126,7 +1128,7 @@ body {
 .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 4rem;
   text-decoration: none;
   color: #4B4237;
 }
@@ -1172,7 +1174,7 @@ body {
 .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 4rem;
   text-decoration: none;
   color: #4B4237;
 }
@@ -1192,7 +1194,7 @@ body {
 .parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 4rem;
   text-decoration: none;
   color: #4B4237;
 }
@@ -1291,12 +1293,12 @@ body {
 
 @media screen and (max-width: 600px) {
   #parent-top .top-main .top-text .top-text-first {
-    font-size: 1.5em;
+    font-size: 2rem;
     top: 30%;
     left: 17%;
   }
   #parent-top .top-main .top-text .top-text-second {
-    font-size: 1.5em;
+    font-size: 2rem;
     top: 30%;
     left: 40%;
   }
@@ -1305,7 +1307,7 @@ body {
     left: 60%;
   }
   #parent-top .top-main .top-text .top-text-third {
-    font-size: 1.9em;
+    font-size: 3rem;
     top: 50%;
     left: 15%;
   }
@@ -1419,13 +1421,13 @@ body {
   #parent-main .parent-main-1 .parent-what .parent-what-flex {
     width: 100%;
     height: 70%;
-    border: solid 3px #1EAAAA;
+    border: solid 2px #1EAAAA;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
   #parent-main .parent-main-1 .parent-what .parent-what-flex .parent-what-text {
-    width: 45%;
+    width: 65%;
     height: 90%;
     margin-left: 5%;
     display: flex;
@@ -1434,7 +1436,7 @@ body {
   }
   #parent-main .parent-main-1 .parent-what .parent-what-flex .parent-what-text p {
     text-align: left;
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   #parent-main .parent-main-1 .parent-what .parent-what-flex .parent-what-img {
     width: 50%;
@@ -1498,7 +1500,7 @@ body {
   #parent-main .parent-main-1 p {
     font-family: "fot-tsukuardgothic-std", sans-serif;
     font-weight: bold;
-    font-size: 0.7em;
+    font-size: 1rem;
     text-align: center;
     color: #4B4237;
   }
@@ -1569,11 +1571,11 @@ body {
     transform: rotate(5.5deg);
   }
   #parent-main .parent-main-2 h1 {
-    font-size: 2em;
-    margin-top: 15%;
+    font-size: 2.5rem;
+    margin-top: 20%;
   }
   #parent-main .parent-main-2 p {
-    font-size: 0.8em;
+    font-size: 1rem;
     margin: 1% 0;
     margin-bottom: 10%;
   }
@@ -1661,7 +1663,7 @@ body {
   .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability a {
     font-family: "fot-tsukuardgothic-std", sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #4B4237;
   }
@@ -1696,7 +1698,7 @@ body {
     right: 3%;
   }
   .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods a {
-    font-size: 1em;
+    font-size: 1.5rem;
   }
   .parent-footer .parent-footer-1 .footer-btn-2 {
     width: 74%;
@@ -1712,7 +1714,7 @@ body {
     justify-content: center;
   }
   .parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child a {
-    font-size: 1em;
+    font-size: 1.5rem;
   }
   .parent-footer .parent-footer-2 {
     width: 100vw;
@@ -1738,10 +1740,11 @@ body {
 }
 #ability-top .ability-top-heading h1 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 3em;
+  font-size: 6rem;
 }
 #ability-top .ability-top-heading h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
+  font-size: 3rem;
 }
 
 #ability-contents {
@@ -1773,12 +1776,12 @@ body {
 }
 #ability-contents .ability-contents-0 .ability-contents-main .ability-contents-text h1 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 4em;
+  font-size: 6rem;
   color: #4B4237;
 }
 #ability-contents .ability-contents-0 .ability-contents-main .ability-contents-text p {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 1.2em;
+  font-size: 2rem;
   color: #4B4237;
 }
 #ability-contents .ability-contents-0 .ability-contents-main img {
@@ -1802,7 +1805,7 @@ body {
 #ability-contents .ability-contents-btn .ability-contents-btn-D h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   color: #4B4237;
-  font-size: 2em;
+  font-size: 3rem;
 }
 
 #ability-contents::before {
@@ -1853,7 +1856,7 @@ body {
 .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 4rem;
   text-decoration: none;
   color: #4B4237;
 }
@@ -1869,7 +1872,7 @@ body {
 .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 4rem;
   text-decoration: none;
   color: #4B4237;
 }
@@ -1889,7 +1892,7 @@ body {
 .parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child a {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 4rem;
   text-decoration: none;
   color: #4B4237;
 }
@@ -2037,7 +2040,7 @@ body {
   .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability a {
     font-family: "fot-tsukuardgothic-std", sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #4B4237;
   }
@@ -2072,7 +2075,7 @@ body {
     right: 3%;
   }
   .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods a {
-    font-size: 1em;
+    font-size: 1.5rem;
   }
   .parent-footer .parent-footer-1 .footer-btn-2 {
     width: 74%;
@@ -2088,7 +2091,7 @@ body {
     justify-content: center;
   }
   .parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child a {
-    font-size: 1em;
+    font-size: 1.5rem;
   }
   .parent-footer .parent-footer-2 {
     width: 100vw;
@@ -2392,11 +2395,11 @@ html {
     justify-content: center;
   }
   #goods-top .goods-top-heading h1 {
-    font-size: 2em;
+    font-size: 3rem;
     margin-bottom: -5%;
   }
   #goods-top .goods-top-heading h2 {
-    font-size: 0.8em;
+    font-size: 1rem;
   }
   #goods-main {
     height: 485vh;
@@ -2431,7 +2434,7 @@ html {
   }
   #goods-main .goods-main-game .item h2 {
     font-family: "fot-tsukuardgothic-std", sans-serif;
-    font-size: 1em;
+    font-size: 1.5rem;
     color: #4B4237;
     text-align: center;
     margin: 3%;
@@ -2469,7 +2472,7 @@ html {
   }
   #goods-main .goods-main-robot .item h2 {
     font-family: "fot-tsukuardgothic-std", sans-serif;
-    font-size: 1em;
+    font-size: 1.5rem;
     color: #4B4237;
     text-align: center;
     margin: 3%;
@@ -2507,7 +2510,7 @@ html {
   }
   #goods-main .goods-main-analog .item h2 {
     font-family: "fot-tsukuardgothic-std", sans-serif;
-    font-size: 1em;
+    font-size: 1.5rem;
     color: #4B4237;
     text-align: center;
     margin: 3%;
@@ -2543,7 +2546,7 @@ html {
     margin-top: 5%;
   }
   #goods-main .goods-main-thinking .item h2 {
-    font-size: 1em;
+    font-size: 1.5rem;
     text-align: center;
     margin: 3%;
   }
@@ -2578,7 +2581,7 @@ html {
     margin-top: 5%;
   }
   #goods-main .goods-main-tv .item h2 {
-    font-size: 1em;
+    font-size: 1.5rem;
     text-align: center;
     margin: 3%;
   }
@@ -2586,10 +2589,132 @@ html {
     border-width: 20px 100vw 0 0;
   }
   .item-title {
-    font-size: 2em;
+    font-size: 3rem;
     padding-top: 4%;
     margin: 0 auto;
     margin-bottom: 5%;
+  }
+  .goods-info {
+    width: 90vw;
+    height: 80vh;
+    padding-bottom: 3%;
+    background-color: #fdfdfd;
+    position: fixed;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .goods-info h3 {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 5% 0 2% 0;
+    color: #4B4237;
+    line-height: 120%;
+  }
+  .goods-info h3 span {
+    font-size: 1.5rem;
+  }
+  .goods-info .goods-info-main {
+    width: 90%;
+    height: 90%;
+    background-color: #A5EF83;
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .goods-info .goods-info-main img {
+    width: 90%;
+    height: auto;
+  }
+  .goods-info .goods-info-main p {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 200%;
+    color: #4B4237;
+    font-weight: bold;
+  }
+  .goods-info .goods-info-main .product {
+    width: 90%;
+    height: 25%;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+  }
+  .goods-info .goods-info-main .product .product-left {
+    width: 55%;
+    height: 100%;
+  }
+  .goods-info .goods-info-main .product .product-left h4 {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    color: #fdfdfd;
+    font-size: 1rem;
+    color: #4B4237;
+    line-height: 120%;
+    margin: 10% 0 8% 0;
+  }
+  .goods-info .goods-info-main .product .product-left h4 span {
+    font-size: 0.1rem;
+  }
+  .goods-info .goods-info-main .product .product-left p {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    color: #fdfdfd;
+    font-size: 0.2rem;
+    color: #4B4237;
+    text-align: left;
+    font-weight: bold;
+    line-height: 250%;
+  }
+  .goods-info .goods-info-main .product .product-right {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .goods-info .goods-info-main .product .product-right img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+  }
+  .goods-info .goods-info-main .product .product-right .product-right-btn {
+    width: 100%;
+    height: 15%;
+    background-color: #F0D150;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .goods-info .goods-info-main .product .product-right .product-right-btn a {
+    text-decoration: none;
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    color: #fdfdfd;
+    font-size: 1rem;
+  }
+  .active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .goods-info-close {
+    position: absolute;
+    top: -4%;
+    right: -6%;
+    width: 11%;
+    height: 10%;
+    background-color: #F0D150;
+    border-radius: 50%;
   }
   .parent-footer {
     width: 100vw;
@@ -2646,7 +2771,7 @@ html {
   .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-ability a {
     font-family: "fot-tsukuardgothic-std", sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #4B4237;
   }
@@ -2681,7 +2806,7 @@ html {
     right: 3%;
   }
   .parent-footer .parent-footer-1 .footer-btn-1 .footer-btn-goods a {
-    font-size: 1em;
+    font-size: 1.5rem;
   }
   .parent-footer .parent-footer-1 .footer-btn-2 {
     width: 74%;
@@ -2697,7 +2822,7 @@ html {
     justify-content: center;
   }
   .parent-footer .parent-footer-1 .footer-btn-2 .footer-btn-child a {
-    font-size: 1em;
+    font-size: 1.5rem;
   }
   .parent-footer .parent-footer-2 {
     width: 100vw;
@@ -2716,7 +2841,7 @@ html {
 }
 #why-main h1 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 4em;
+  font-size: 7rem;
   color: #fdfdfd;
   border-bottom: 5px solid #fdfdfd;
   margin-bottom: 5%;
@@ -2748,7 +2873,7 @@ html {
 }
 #why-main .why-main-first h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 3.5em;
+  font-size: 6rem;
   color: #fdfdfd;
   transform: rotate(6deg);
   position: absolute;
@@ -2787,7 +2912,7 @@ html {
 }
 #why-main h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 7em;
+  font-size: 10rem;
   color: #fdfdfd;
   transform: rotate(-5.5deg);
   position: absolute;
@@ -2806,7 +2931,7 @@ html {
 }
 #why-more h3 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 3em;
+  font-size: 8rem;
   color: #fdfdfd;
 }
 #why-more .why-more-content {
@@ -2824,7 +2949,7 @@ html {
 }
 #why-more .why-more-content .why-more-contentR h4 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 3em;
+  font-size: 5rem;
   color: #fdfdfd;
   transform: rotate(-10deg);
   position: absolute;
@@ -2838,7 +2963,7 @@ html {
 }
 #why-more .why-more-content .why-more-contentG h4 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
-  font-size: 3em;
+  font-size: 5rem;
   color: #fdfdfd;
   transform: rotate(-10deg);
   position: absolute;
@@ -2861,7 +2986,7 @@ html {
     flex-direction: column;
   }
   #why-main h1 {
-    font-size: 1.5em;
+    font-size: 3rem;
     border-bottom: 3px solid #fdfdfd;
     margin-bottom: 10%;
   }
@@ -2889,7 +3014,7 @@ html {
     border: 2px solid #fdfdfd;
   }
   #why-main .why-main-first h2 {
-    font-size: 2.5em;
+    font-size: 3rem;
     transform: rotate(6deg);
     bottom: -5%;
     left: 40%;
@@ -2921,7 +3046,7 @@ html {
     border: 2px solid #fdfdfd;
   }
   #why-main h2 {
-    font-size: 3em;
+    font-size: 5rem;
     transform: rotate(-5.5deg);
     bottom: -3%;
     left: 0%;
@@ -2935,7 +3060,7 @@ html {
     justify-content: space-around;
   }
   #why-more h3 {
-    font-size: 1.5em;
+    font-size: 3rem;
   }
   #why-more .why-more-content {
     width: 82%;
@@ -2952,7 +3077,7 @@ html {
     text-align: center;
   }
   #why-more .why-more-content .why-more-contentR h4 {
-    font-size: 2em;
+    font-size: 2rem;
     transform: rotate(-10deg);
     top: -40%;
     left: 5%;
@@ -2963,7 +3088,7 @@ html {
     text-align: center;
   }
   #why-more .why-more-content .why-more-contentG h4 {
-    font-size: 2em;
+    font-size: 2rem;
     transform: rotate(-10deg);
     top: -40%;
     left: 5%;

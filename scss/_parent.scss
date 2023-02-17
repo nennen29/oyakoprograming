@@ -33,18 +33,18 @@ body {
 
             .top-text-first {
                 font-family: $font-Tks;
-                font-size: 2.3em;
+                font-size: 5rem;
                 color: $color-W;
                 font-weight: bold;
                 position: absolute;
-                top: 20%;
-                left: 25%;
+                top: 15%;
+                left: 23%;
                 transform: rotate(-10deg);
             }
 
             .top-text-second {
                 font-family: $font-Tks;
-                font-size: 2.3em;
+                font-size: 5rem;
                 color: $color-W;
                 font-weight: bold;
                 position: absolute;
@@ -63,7 +63,7 @@ body {
 
             .top-text-third {
                 font-family: $font-Tks;
-                font-size: 4em;
+                font-size: 8rem;
                 color: $color-W;
                 font-weight: bold;
                 position: absolute;
@@ -310,7 +310,7 @@ body {
             h1 {
                 font-family: $font-Tks;
                 color: $color-G;
-                font-size: 3em;
+                font-size: 5rem;
                 margin: 0 5%;
             }
         }
@@ -318,7 +318,7 @@ body {
         p {
             font-family: $font-Tks;
             font-weight: bold;
-            font-size: 1.5em;
+            font-size: 2.5rem;
             text-align: center;
             color: $color-B;
         }
@@ -410,7 +410,7 @@ body {
 
         h1 {
             font-family: $font-Tks;
-            font-size: 4em;
+            font-size: 6rem;
             color: $color-W;
             text-align: center;
         }
@@ -418,10 +418,10 @@ body {
         p {
             font-family: $font-Tks;
             font-weight: bold;
-            font-size: 1.5em;
+            font-size: 2.5rem;
             text-align: center;
             color: $color-W;
-            margin: 3% 0;
+            margin: 3% 0 5% 0;
         }
     }
 
@@ -454,7 +454,7 @@ body {
         color: $color-W;
         font-family: $font-Tks;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 2rem;
     }
 }
 
@@ -518,7 +518,7 @@ body {
                 a {
                     font-family: $font-Tks;
                     font-weight: bold;
-                    font-size: 2em;
+                    font-size: 4rem;
                     text-decoration: none;
                     color: $color-B;
                 }
@@ -570,7 +570,7 @@ body {
                 a {
                     font-family: $font-Tks;
                     font-weight: bold;
-                    font-size: 2em;
+                    font-size: 4rem;
                     text-decoration: none;
                     color: $color-B;
                 }
@@ -593,7 +593,7 @@ body {
                 a {
                     font-family: $font-Tks;
                     font-weight: bold;
-                    font-size: 2em;
+                    font-size: 4rem;
                     text-decoration: none;
                     color: $color-B;
                 }
@@ -717,13 +717,13 @@ body {
             .top-text {
     
                 .top-text-first {
-                    font-size: 1.5em;
+                    font-size: 2rem;
                     top: 30%;
                     left: 17%;
                 }
     
                 .top-text-second {
-                    font-size: 1.5em;
+                    font-size: 2rem;
                     top: 30%;
                     left: 40%;
                 }
@@ -734,7 +734,7 @@ body {
                 }
     
                 .top-text-third {
-                    font-size: 1.9em;
+                    font-size: 3rem;
                     top: 50%;
                     left: 15%;
                 }
@@ -875,13 +875,13 @@ body {
                 .parent-what-flex {
                     width: 100%;
                     height: 70%;
-                    border: solid 3px $color-G;
+                    border: solid 2px $color-G;
                     display: flex;
                     align-items: center;
                     justify-content: space-around;
     
                     .parent-what-text {
-                        width: 45%;
+                        width: 65%;
                         height: 90%;
                         margin-left: 5%;
                         display: flex;
@@ -890,7 +890,7 @@ body {
     
                         p {
                             text-align: left;
-                            font-size: 0.5em;
+                            font-size: 0.5rem;
                         }
                     }
     
@@ -968,7 +968,7 @@ body {
             p {
                 font-family: $font-Tks;
                 font-weight: bold;
-                font-size: 0.7em;
+                font-size: 1rem;
                 text-align: center;
                 color: $color-B;
             }
@@ -1051,12 +1051,12 @@ body {
             }
     
             h1 {
-                font-size: 2em;
-                margin-top: 15%;
+                font-size: 2.5rem;
+                margin-top: 20%;
             }
     
             p {
-                font-size: 0.8em;
+                font-size: 1rem;
                 margin: 1% 0;
                 margin-bottom: 10%;
             }
@@ -1154,7 +1154,7 @@ body {
                     a {
                         font-family: $font-Tks;
                         font-weight: bold;
-                        font-size: 1em;
+                        font-size: 1.5rem;
                         text-decoration: none;
                         color: $color-B;
                     }
@@ -1195,7 +1195,7 @@ body {
                     }
     
                     a {
-                        font-size: 1em;
+                        font-size: 1.5rem;
                     }
                 }
             }
@@ -1214,7 +1214,7 @@ body {
                     justify-content: center;
     
                     a {
-                        font-size: 1em;
+                        font-size: 1.5rem;
                     }
                 }
             }
