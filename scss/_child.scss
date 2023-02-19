@@ -607,6 +607,10 @@ body {
         width: 100%;
         height: 90%;
         margin: 5% 0%;
+        background-image: url(/img/child-footer-back-pc.png);
+        background-size: 130%;
+        background-position: top;
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -623,6 +627,36 @@ body {
             background-color: #D2F8D1;
             border-radius: 10px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+
+            .c-footer1-img{
+                position: relative;
+                width: 100%;
+                height: 50%;
+
+                .c-footer1-img1 {
+                    width: 30%;
+                    height: auto;
+                    position: absolute;
+                    top: -30%;
+                    left: 25%;
+                    transform: rotate(-10deg);
+                }
+    
+                .c-footer1-img2 {
+                    width: 15%;
+                    height: auto;
+                    position: absolute;
+                    top: -30%;
+                    left: 55%;
+                    transform: rotate(20deg);
+                }
+            }
+
 
             a {
                 text-decoration: none;
@@ -991,6 +1025,9 @@ body {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+            background-image: url(/img/child-footer-back-s.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
 
             img {
                 width: 35%;

@@ -621,6 +621,10 @@ body {
   width: 100%;
   height: 90%;
   margin: 5% 0%;
+  background-image: url(/img/child-footer-back-pc.png);
+  background-size: 130%;
+  background-position: top;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -636,6 +640,31 @@ body {
   background-color: #D2F8D1;
   border-radius: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#footer .footer-main .footer-btn-1 .c-footer1-img {
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
+#footer .footer-main .footer-btn-1 .c-footer1-img .c-footer1-img1 {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: -30%;
+  left: 25%;
+  transform: rotate(-10deg);
+}
+#footer .footer-main .footer-btn-1 .c-footer1-img .c-footer1-img2 {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: -30%;
+  left: 55%;
+  transform: rotate(20deg);
 }
 #footer .footer-main .footer-btn-1 a {
   text-decoration: none;
@@ -906,6 +935,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-image: url(/img/child-footer-back-s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   #footer .footer-main img {
     width: 35%;
@@ -2071,11 +2103,27 @@ body {
     height: 10%;
     background-color: #1EAAAA;
   }
+  #parent-menu {
+    width: 100vw;
+  }
+  #parent-menu ul li a {
+    font-size: 2rem;
+  }
+  #parent-menu ul li span {
+    font-size: 1.5rem;
+  }
+  #parent-menu ul li .parent-menu-close {
+    margin-top: 5%;
+  }
 }
 #ability-top {
   width: 100vw;
   height: 50vh;
   background-color: #DDDBF1;
+  background-image: url(/img/ability-top-back.png);
+  background-size: 105%;
+  background-position: top;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2151,11 +2199,27 @@ body {
   height: 100%;
   background-color: #A2C3AB;
   border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #ability-contents .ability-contents-btn .ability-contents-btn-D h2 {
   font-family: "fot-tsukuardgothic-std", sans-serif;
   color: #4B4237;
   font-size: 3rem;
+}
+#ability-contents .ability-contents-btn .ability-contents-btn-D .ab-btn1-img {
+  width: 100%;
+  height: 50%;
+}
+#ability-contents .ability-contents-btn .ability-contents-btn-D .ab-btn1-img img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: -10%;
+  left: 25%;
 }
 #ability-contents .ability-contents-btn .ab-btn-1:hover {
   border: 10px solid #629677;
@@ -2375,6 +2439,9 @@ body {
     height: 90%;
     padding: 5% 0;
     justify-content: space-between;
+    background-image: url(/img/footer-back-s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   .parent-footer .parent-footer-1 img {
     width: 30%;
@@ -2488,6 +2555,10 @@ html {
   width: 100vw;
   height: 50vh;
   background-color: #F6F5AE;
+  background-image: url(/img/ability-top-back.png);
+  background-size: 105%;
+  background-position: top;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2823,6 +2894,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-image: url(/img/goods-back-s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   #goods-main .goods-main-game .item-flex {
     margin: 0 auto;
@@ -2861,6 +2935,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-image: url(/img/goods-back-s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   #goods-main .goods-main-robot .item-flex {
     margin: 0 auto;
@@ -2899,6 +2976,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-image: url(/img/goods-back-s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   #goods-main .goods-main-analog .item-flex {
     margin: 0 auto;
@@ -2937,6 +3017,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-image: url(/img/goods-back-s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   #goods-main .goods-main-thinking .item-flex {
     margin: 0 auto;
@@ -2972,6 +3055,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-image: url(/img/goods-back-s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   #goods-main .goods-main-tv .item-flex {
     margin: 0 auto;

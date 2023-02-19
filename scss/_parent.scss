@@ -1321,4 +1321,29 @@ body {
             background-color: $color-G;
         }
     }
+
+    #parent-menu {
+        width: 100vw;
+    
+        ul {
+    
+            li {
+    
+                a {
+                    font-size: 2rem;
+                }
+    
+                span {
+                    font-size: 1.5rem;
+                }
+    
+                .parent-menu-close {
+                    margin-top: 5%;
+                }
+    
+            }
+    
+        }
+    
+    }
 }
