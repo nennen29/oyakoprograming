@@ -36,17 +36,19 @@
         });
         gsap.set(topTextFirst, {
             opacity: 0,
+            scale: 0,
             y: 0,
         });
         gsap.set(topTextSecond, {
             opacity: 0,
+            scale: 0,
             y: 0,
         });
         gsap.set(topTextThird, {
             scale: 1,
         });
         gsap.set(topTextThirdspan, {
-            opacity:0
+            opacity: 0
         });
         gsap.set(topImg, {
             scale: 0,
@@ -65,26 +67,32 @@
         });
         gsap.set(moreP1, {
             opacity: 0,
+            scale: 0,
             y: 0,
         });
         gsap.set(moreP2, {
             opacity: 0,
+            scale: 0,
             y: 0,
         });
         gsap.set(moreP3, {
             opacity: 0,
+            scale: 0,
             y: 0,
         });
         gsap.set(moreP4, {
             opacity: 0,
+            scale: 0,
             y: 0,
         });
         gsap.set(moreP5, {
             opacity: 0,
+            scale: 0,
             y: 0,
         });
         gsap.set(moreP6, {
             opacity: 0,
+            scale: 0,
             y: 0,
         });
 
@@ -110,68 +118,101 @@
 
         const tl = gsap.timeline();
         tl.to(
-            topCharacterC, {
-                // opacity: 1,
-                scale: 1,
-                duration: 0.2,
-                delay: 0.5,
-                ease: 'power1.out',
-            }).to(
-            topCharacterP, {
-                // opacity: 1,
-                scale: 1,
-                duration: 0.2,
-                delay: 0,
-                ease: 'power1.out',
-            },'-=0.1'
-        ).to(
-            topTextFirst, {
-                opacity: 1,
-                duration: 0.2,
-                delay: 0.5,
-                ease: 'power1.out',
-            }
-        ).to(
-            topTextSecond, {
-                opacity: 1,
-                duration: 0.2,
-                delay: 0,
-                ease: 'power1.out',
-            },'-=0.1'
-        )
-        .to(
-            topTextThirdspan, {
-                opacity:1,
-                duration: 0.2,
-                delay: 0.3,
-                stagger: {
-                    amount: 0.6,
+                topCharacterC, {
+                    // opacity: 1,
+                    scale: 1.1,
+                    duration: 0.2,
+                    delay: 0.5,
                     ease: 'power1.out',
-                    from: 'start',
+                }).to(
+                topCharacterC, {
+                    // opacity: 1,
+                    scale: 1,
+                    duration: 0.2,
+                    ease: 'power1.out',
+                }).to(
+                topCharacterP, {
+                    // opacity: 1,
+                    scale: 1.1,
+                    duration: 0.2,
+                    delay: 0,
+                    ease: 'power1.out',
+                }, '-=0.1'
+            ).to(
+                topCharacterP, {
+                    // opacity: 1,
+                    scale: 1,
+                    duration: 0.2,
+                    ease: 'power1.out',
+                },
+            ).to(
+                topTextFirst, {
+                    opacity: 1,
+                    scale: 1.1,
+                    duration: 0.2,
+                    delay: 0.5,
+                    ease: 'power1.out',
                 }
-            }
-        )
-        .to(
-            topImg, {
-                scale: -1,
-                duration: 0.2,
-                delay: 0.5,
-                ease: 'power1.out',
-            }
-        ).to(
-            topBackground, {
-                opacity: 1,
-                y: 0,
-                duration: 0.8,
-                delay: 0.5,
-                ease: 'power1.out',
-                // stagger: {
-                //   amount: 0.6,
-                //   from: "start",
-                //   ease: "sine.in"
-                // }
-            }
-        );
+            ).to(
+                topTextFirst, {
+                    scale: 1,
+                    duration: 0.2,
+                    ease: 'power1.out',
+                }
+            ).to(
+                topTextSecond, {
+                    opacity: 1,
+                    scale: 1.1,
+                    duration: 0.2,
+                    delay: 0,
+                    ease: 'power1.out',
+                }, '-=0.1'
+            ).to(
+                topTextSecond, {
+                    scale: 1,
+                    duration: 0.2,
+                    ease: 'power1.out',
+                },
+            )
+            .to(
+                topTextThirdspan, {
+                    opacity: 1,
+                    duration: 0.2,
+                    delay: 0.3,
+                    stagger: {
+                        amount: 0.6,
+                        ease: 'power1.out',
+                        from: 'start',
+                    }
+                }
+            )
+            .to(
+                topImg, {
+                    scale: -1.1,
+                    duration: 0.2,
+                    delay: 0.5,
+                    ease: 'power1.out',
+                }
+            ).to(
+                topImg, {
+                    scale: -1,
+                    duration: 0.2,
+                    ease: 'power1.out',
+                }
+            ).to(
+                topBackground, {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.8,
+                    delay: 0.5,
+                    ease: 'power1.out',
+                    // stagger: {
+                    //   amount: 0.6,
+                    //   from: "start",
+                    //   ease: "sine.in"
+                    // }
+                }
+            );
 
 
         const scrollTitle1 = gsap.timeline({
@@ -239,38 +280,74 @@
         scrollTitle2.to(
             moreP1, {
                 opacity: 1,
+                scale: 1.1,
+                duration: 0.2,
+                delay: 0.5,
+            }
+        ).to(
+            moreP1, {
+                scale: 1,
+                duration: 0.2,
+            }
+        ).to(
+            moreP2, {
+                opacity: 1,
+                scale: 1.1,
                 duration: 0.2,
                 delay: 0.5,
             }
         ).to(
             moreP2, {
+                scale: 1,
+                duration: 0.2,
+            }
+        ).to(
+            moreP3, {
                 opacity: 1,
+                scale: 1.1,
                 duration: 0.2,
                 delay: 0.5,
             }
         ).to(
             moreP3, {
+                scale: 1,
+                duration: 0.2,
+            }
+        ).to(
+            moreP4, {
                 opacity: 1,
+                scale: 1.1,
                 duration: 0.2,
                 delay: 0.5,
             }
         ).to(
             moreP4, {
+                scale: 1,
+                duration: 0.2,
+            }
+        ).to(
+            moreP5, {
                 opacity: 1,
+                scale: 1.1,
                 duration: 0.2,
                 delay: 0.5,
             }
         ).to(
             moreP5, {
+                scale: 1,
+                duration: 0.2,
+            }
+        ).to(
+            moreP6, {
                 opacity: 1,
+                scale: 1.1,
                 duration: 0.2,
                 delay: 0.5,
             }
         ).to(
             moreP6, {
-                opacity: 1,
+                scale: 1,
                 duration: 0.2,
-                delay: 0.5,
             }
         );
 

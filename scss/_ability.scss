@@ -102,6 +102,26 @@ $borderR-img: 5px;
                 font-size: 3rem;
             }
         }
+
+        .ab-btn-1:hover {
+            border: 10px solid #629677;
+            box-sizing: border-box;
+        }
+
+        .ab-btn-2:hover {
+            border: 10px solid #629677;
+            box-sizing: border-box;
+        }
+
+        .ab-btn-3:hover {
+            border: 10px solid #629677;
+            box-sizing: border-box;
+        }
+
+        .ab-btn-4:hover {
+            border: 10px solid #629677;
+            box-sizing: border-box;
+        }
     }
 
 }
@@ -130,6 +150,9 @@ $borderR-img: 5px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-image: url(/img/footerpattern.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
 
         img {
             width: 30%;
@@ -161,6 +184,11 @@ $borderR-img: 5px;
                 }
             }
 
+            .footer-btn-ability:hover {
+                border: 15px solid #016FB9;
+                box-sizing: border-box;
+            }
+
             .footer-btn-goods {
                 width: 30%;
                 height: 60%;
@@ -177,6 +205,11 @@ $borderR-img: 5px;
                     text-decoration: none;
                     color: $color-B;
                 }
+            }
+
+            .footer-btn-goods:hover {
+                border: 15px solid #9DEF9B;
+                box-sizing: border-box;
             }
         }
 
@@ -200,6 +233,11 @@ $borderR-img: 5px;
                     text-decoration: none;
                     color: $color-B;
                 }
+            }
+
+            .footer-btn-child:hover {
+                border: 15px solid #EFE79B;
+                box-sizing: border-box;
             }
         }
     }

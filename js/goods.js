@@ -18,16 +18,19 @@ $(function(){
 
 	open.on('click',function(){	
 		container.addClass('active');
+		$('body').css('overflow','hidden');
 		return false;
 	});
 
 	close.on('click',function(){	
 		container.removeClass('active');
+		$('body').css('overflow','auto');
 	});
 
 	$(document).on('click',function(e) {
 		if(!$(e.target).closest('.goods-info').length) {
 			container.removeClass('active');
+			$('body').css('overflow','auto');
 		}
 	});
 });
@@ -40,15 +43,18 @@ $(function(){
 	open.on('click',function(){	
 		container.addClass('active');
 		return false;
+		$('body').css('overflow','hidden');
 	});
 
 	close.on('click',function(){	
 		container.removeClass('active');
+		$('body').css('overflow','auto');
 	});
 
 	$(document).on('click',function(e) {
 		if(!$(e.target).closest('.goods-info').length) {
 			container.removeClass('active');
+			$('body').css('overflow','auto');
 		}
 	});
 });

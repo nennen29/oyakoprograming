@@ -51,6 +51,9 @@ html {
         height: 20%;
         background-color: #A5EF83;
         position: relative;
+        background-image: url(/img/patternback.png);
+        background-size: 110%;
+        background-repeat: no-repeat;
     }
 
     .goods-main-game::before {
@@ -70,6 +73,9 @@ html {
         height: 20%;
         background-color: #C2A3F5;
         position: relative;
+        background-image: url(/img/patternback.png);
+        background-size: 120%;
+        background-repeat: no-repeat;
     }
 
     .goods-main-robot::before {
@@ -89,6 +95,10 @@ html {
         height: 20%;
         background-color: #F58983;
         position: relative;
+        background-image: url(/img/patternback.png);
+        background-size: 140%;
+        background-position: top;
+        background-repeat: no-repeat;
     }
 
     .goods-main-analog::before {
@@ -108,6 +118,9 @@ html {
         height: 20%;
         background-color: #76A0F4;
         position: relative;
+        background-image: url(/img/patternback.png);
+        background-size: 120%;
+        background-repeat: no-repeat;
     }
 
     .goods-main-thinking::before {
@@ -127,6 +140,10 @@ html {
         height: 20%;
         background-color: #F9B668;
         position: relative;
+        background-image: url(/img/patternback.png);
+        background-size: 140%;
+        background-position: top;
+        background-repeat: no-repeat;
     }
 
     .goods-main-tv::before {
@@ -183,7 +200,7 @@ html {
 
 .goods-info {
     width: 45vw;
-    height: 90vh;
+    height: 85vh;
     padding-bottom: 3%;
     background-color: $color-W;
     position: fixed;
@@ -191,6 +208,7 @@ html {
     left: 0;
     right: 0;
     margin: 0 auto;
+    margin-bottom: 5%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -221,6 +239,7 @@ html {
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
+        border-radius: $borderR-img;
 
         img {
             width: 90%;
@@ -242,6 +261,7 @@ html {
             background-color: $color-W;
             display: flex;
             justify-content: center;
+            border-radius: $borderR-img;
 
             .product-left {
                 width: 50%;
@@ -317,6 +337,19 @@ html {
     height: 10%;
     background-color: #F0D150;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        color: $color-W;
+        font-family: $font-Tks;
+        font-size: 5rem;
+    }
+}
+
+.goods-info-close:hover {
+    background-color: #FFE782;
 }
 
 // .goods-info-visible {
