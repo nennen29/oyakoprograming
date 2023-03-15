@@ -11,6 +11,8 @@
         const topBackground = '.top-background';
         const title1 = '#desc-body-h1';
         const title1span = '#desc-body-h1>span';
+        const descCharaC = '.desc-body-chara-c';
+        const descCharaP = '.desc-body-chara-p';
         const moreP1 = '#more-p1';
         const moreP2 = '#more-p2';
         const moreP3 = '#more-p3';
@@ -52,6 +54,7 @@
         });
         gsap.set(topImg, {
             scale: 0,
+            // rotate: 0,
         });
         gsap.set(topBackground, {
             opacity: 0,
@@ -64,6 +67,12 @@
         gsap.set(title1span, {
             opacity: 0,
             y: 10,
+        });
+        gsap.set(descCharaC, {
+            scale: 0,
+        });
+        gsap.set(descCharaP, {
+            scale: 0,
         });
         gsap.set(moreP1, {
             opacity: 0,
@@ -212,8 +221,27 @@
                     //   ease: "sine.in"
                     // }
                 }
-            );
+            )
+            // .to(
+            //     topImg, {
+            //         transformOrigin: "bottom 50%",
+            //         rotate: 10,
+            //     }
+            // ).to(
+            //     topImg, {
+            //         transformOrigin: "bottom 50%",
+            //         rotate: 0,
+            //     }
+            // )
+            ;
 
+        
+        const scrollDesc = gsap.timeline({
+            scrolltogether: {
+                trigger: descCharaC,
+                start: "top center",
+            }
+        })
 
         const scrollTitle1 = gsap.timeline({
             scrollTrigger: {
@@ -256,6 +284,27 @@
                 start: "top center",
             }
         });
+
+
+        scrollDesc.to(
+            descCharaC,{
+                scale: 1.1,
+                duration: 0.3,
+            }
+        ).to(
+            descCharaC,{
+                scale: 1,
+            }
+        ).to(
+            descCharaP,{
+                scale: 1.1,
+                duration: 0.3,
+            }
+        ).to(
+            descCharaP,{
+                scale: 1,
+            }
+        );
 
         scrollTitle1.to(
                 title1, {

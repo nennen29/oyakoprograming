@@ -294,7 +294,7 @@ body {
 }
 @-webkit-keyframes desc-background2 {
   0% {
-    transform: translate(20vw, -10vh);
+    transform: translate(20vw, 0vh);
   }
   100% {
     transform: translate(-70vw, 120vh);
@@ -302,7 +302,7 @@ body {
 }
 @keyframes desc-background2 {
   0% {
-    transform: translate(20vw, -10vh);
+    transform: translate(20vw, 0vh);
   }
   100% {
     transform: translate(-70vw, 120vh);
@@ -316,18 +316,18 @@ body {
 }
 @-webkit-keyframes desc-background3 {
   0% {
-    transform: translate(90vw, -10vh);
+    transform: translate(80vw, 0vh);
   }
   100% {
-    transform: translate(0vw, 120vh);
+    transform: translate(-10vw, 120vh);
   }
 }
 @keyframes desc-background3 {
   0% {
-    transform: translate(90vw, -10vh);
+    transform: translate(80vw, 0vh);
   }
   100% {
-    transform: translate(0vw, 120vh);
+    transform: translate(-10vw, 120vh);
   }
 }
 #main .desc-background .desc-background4 {
@@ -338,18 +338,18 @@ body {
 }
 @-webkit-keyframes desc-background4 {
   0% {
-    transform: translate(50vw, -80vh);
+    transform: translate(50vw, 0vh);
   }
   100% {
-    transform: translate(-20vw, 120vh);
+    transform: translate(-40vw, 120vh);
   }
 }
 @keyframes desc-background4 {
   0% {
-    transform: translate(50vw, -80vh);
+    transform: translate(50vw, 0vh);
   }
   100% {
-    transform: translate(-20vw, 120vh);
+    transform: translate(-40vw, 120vh);
   }
 }
 #main .desc-background .desc-background5 {
@@ -360,18 +360,18 @@ body {
 }
 @-webkit-keyframes desc-background5 {
   0% {
-    transform: translate(20vw, -20vh);
+    transform: translate(20vw, 0vh);
   }
   100% {
-    transform: translate(-60vw, 120vh);
+    transform: translate(-70vw, 120vh);
   }
 }
 @keyframes desc-background5 {
   0% {
-    transform: translate(20vw, -20vh);
+    transform: translate(20vw, 0vh);
   }
   100% {
-    transform: translate(-60vw, 120vh);
+    transform: translate(-70vw, 120vh);
   }
 }
 #main .desc-background .desc-background6 {
@@ -385,7 +385,7 @@ body {
     transform: translate(80vw, 0vh);
   }
   100% {
-    transform: translate(50vw, 120vh);
+    transform: translate(-10vw, 120vh);
   }
 }
 @keyframes desc-background6 {
@@ -393,7 +393,7 @@ body {
     transform: translate(80vw, 0vh);
   }
   100% {
-    transform: translate(50vw, 120vh);
+    transform: translate(-10vw, 120vh);
   }
 }
 #main .desc-background .desc-background7 {
@@ -404,32 +404,32 @@ body {
 }
 @-webkit-keyframes desc-background7 {
   0% {
-    transform: translate(50vw, -90vh);
+    transform: translate(50vw, 0vh);
   }
   100% {
-    transform: translate(-30vw, 120vh);
+    transform: translate(-40vw, 120vh);
   }
 }
 @keyframes desc-background7 {
   0% {
-    transform: translate(50vw, -90vh);
+    transform: translate(50vw, 0vh);
   }
   100% {
-    transform: translate(-30vw, 120vh);
+    transform: translate(-40vw, 120vh);
   }
 }
 #main .desc-background .desc-background8 {
   width: 5%;
   height: auto;
-  -webkit-animation: desc-background8 70s infinite;
-          animation: desc-background8 70s infinite;
+  -webkit-animation: desc-background8 60s infinite;
+          animation: desc-background8 60s infinite;
 }
 @-webkit-keyframes desc-background8 {
   0% {
     transform: translate(40vw, 0vh);
   }
   100% {
-    transform: translate(-40vw, 120vh);
+    transform: translate(-50vw, 120vh);
   }
 }
 @keyframes desc-background8 {
@@ -437,7 +437,7 @@ body {
     transform: translate(40vw, 0vh);
   }
   100% {
-    transform: translate(-40vw, 120vh);
+    transform: translate(-50vw, 120vh);
   }
 }
 #main .desc-background .desc-background9 {
@@ -448,18 +448,18 @@ body {
 }
 @-webkit-keyframes desc-background9 {
   0% {
-    transform: translate(60vw, 0vh);
+    transform: translate(80vw, 0vh);
   }
   100% {
-    transform: translate(-20vw, 120vh);
+    transform: translate(-10vw, 120vh);
   }
 }
 @keyframes desc-background9 {
   0% {
-    transform: translate(60vw, 0vh);
+    transform: translate(80vw, 0vh);
   }
   100% {
-    transform: translate(-20vw, 120vh);
+    transform: translate(-10vw, 120vh);
   }
 }
 #main .desc-background .desc-background10 {
@@ -473,7 +473,7 @@ body {
     transform: translate(50vw, 0vh);
   }
   100% {
-    transform: translate(-10vw, 120vh);
+    transform: translate(-40vw, 120vh);
   }
 }
 @keyframes desc-background10 {
@@ -481,7 +481,7 @@ body {
     transform: translate(50vw, 0vh);
   }
   100% {
-    transform: translate(-10vw, 120vh);
+    transform: translate(-40vw, 120vh);
   }
 }
 #main .desc-background .desc-background11 {
@@ -492,18 +492,18 @@ body {
 }
 @-webkit-keyframes desc-background11 {
   0% {
-    transform: translate(40vw, 0vh);
+    transform: translate(60vw, 0vh);
   }
   100% {
-    transform: translate(-40vw, 120vh);
+    transform: translate(-30vw, 120vh);
   }
 }
 @keyframes desc-background11 {
   0% {
-    transform: translate(40vw, 0vh);
+    transform: translate(60vw, 0vh);
   }
   100% {
-    transform: translate(-40vw, 120vh);
+    transform: translate(-30vw, 120vh);
   }
 }
 #main .desc-background .desc-background12 {
@@ -517,7 +517,7 @@ body {
     transform: translate(50vw, -80vh);
   }
   100% {
-    transform: translate(-30vw, 120vh);
+    transform: translate(-40vw, 120vh);
   }
 }
 @keyframes desc-background12 {
@@ -525,7 +525,7 @@ body {
     transform: translate(50vw, -80vh);
   }
   100% {
-    transform: translate(-30vw, 120vh);
+    transform: translate(-40vw, 120vh);
   }
 }
 #main .more {
@@ -1626,7 +1626,7 @@ body {
   width: 60px;
   height: 60px;
 }
-#parent-menu ul li:nth-child(1):hover a {
+#parent-menu ul li:nth-child(1) a {
   color: #F7A514;
 }
 #parent-menu ul li:nth-child(2):hover a {

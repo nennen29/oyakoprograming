@@ -203,7 +203,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        // z-index: 1;
 
 
         .desc-body {
@@ -331,7 +330,7 @@ body {
 
         @keyframes desc-background2 {
             0% {
-                transform: translate(20vw, -10vh);
+                transform: translate(20vw, 0vh);
             }
 
             100% {
@@ -347,11 +346,11 @@ body {
 
         @keyframes desc-background3 {
             0% {
-                transform: translate(90vw, -10vh);
+                transform: translate(80vw, 0vh);
             }
 
             100% {
-                transform: translate(0vw, 120vh);
+                transform: translate(-10vw, 120vh);
             }
         }
 
@@ -363,11 +362,11 @@ body {
 
         @keyframes desc-background4 {
             0% {
-                transform: translate(50vw, -80vh);
+                transform: translate(50vw, 0vh);
             }
 
             100% {
-                transform: translate(-20vw, 120vh);
+                transform: translate(-40vw, 120vh);
             }
         }
 
@@ -379,11 +378,11 @@ body {
 
         @keyframes desc-background5 {
             0% {
-                transform: translate(20vw, -20vh);
+                transform: translate(20vw, 0vh);
             }
 
             100% {
-                transform: translate(-60vw, 120vh);
+                transform: translate(-70vw, 120vh);
             }
         }
 
@@ -399,7 +398,7 @@ body {
             }
 
             100% {
-                transform: translate(50vw, 120vh);
+                transform: translate(-10vw, 120vh);
             }
         }
 
@@ -411,18 +410,18 @@ body {
 
         @keyframes desc-background7 {
             0% {
-                transform: translate(50vw, -90vh);
+                transform: translate(50vw, 0vh);
             }
 
             100% {
-                transform: translate(-30vw, 120vh);
+                transform: translate(-40vw, 120vh);
             }
         }
 
         .desc-background8 {
             width: 5%;
             height: auto;
-            animation: desc-background8 70s infinite;
+            animation: desc-background8 60s infinite;
         }
 
         @keyframes desc-background8 {
@@ -431,7 +430,7 @@ body {
             }
 
             100% {
-                transform: translate(-40vw, 120vh);
+                transform: translate(-50vw, 120vh);
             }
         }
 
@@ -443,11 +442,11 @@ body {
 
         @keyframes desc-background9 {
             0% {
-                transform: translate(60vw, 0vh);
+                transform: translate(80vw, 0vh);
             }
 
             100% {
-                transform: translate(-20vw, 120vh);
+                transform: translate(-10vw, 120vh);
             }
         }
 
@@ -463,7 +462,7 @@ body {
             }
 
             100% {
-                transform: translate(-10vw, 120vh);
+                transform: translate(-40vw, 120vh);
             }
         }
 
@@ -475,11 +474,11 @@ body {
 
         @keyframes desc-background11 {
             0% {
-                transform: translate(40vw, 0vh);
+                transform: translate(60vw, 0vh);
             }
 
             100% {
-                transform: translate(-40vw, 120vh);
+                transform: translate(-30vw, 120vh);
             }
         }
 
@@ -495,7 +494,7 @@ body {
             }
 
             100% {
-                transform: translate(-30vw, 120vh);
+                transform: translate(-40vw, 120vh);
             }
         }
     }
